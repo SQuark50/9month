@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: Main.aux
+The style file: mystyle.bst
+Database file #1: MainNotes.bib
+Database file #2: bibliography.bib.bib
+Warning--empty journal in Berliner2001
+Warning--empty journal in Ritt2001
+Warning--empty author in CMake
+Warning--empty journal in CMake
+Warning--empty year in CMake
+You've used 26 entries,
+            2440 wiz_defined-function locations,
+            1205 strings with 40407 characters,
+and the built_in function-call counts, 8844 in all, are:
+= -- 537
+> -- 200
+< -- 2
++ -- 91
+- -- 45
+* -- 616
+:= -- 927
+add.period$ -- 31
+call.type$ -- 26
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 31
+duplicate$ -- 1026
+empty$ -- 990
+format.name$ -- 64
+if$ -- 1930
+int.to.chr$ -- 0
+int.to.str$ -- 26
+missing$ -- 248
+newline$ -- 89
+num.names$ -- 25
+pop$ -- 387
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 201
+stack$ -- 0
+substring$ -- 407
+swap$ -- 604
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 53
+width$ -- 28
+write$ -- 246
+(There were 5 warnings)

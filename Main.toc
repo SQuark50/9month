@@ -1,0 +1,31 @@
+\contentsline {title}{Upgrading T2K and an Overview of Electron Neutrino Detection in ND280\vspace {0mm}}{1}{section*.2}
+\contentsline {abstract}{Abstract}{1}{section*.1}
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{2}{section*.3}
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Introduction}{3}{section*.4}
+\contentsline {section}{\numberline {II}Neutrino Oscillation Model}{3}{section*.5}
+\contentsline {section}{\numberline {III}T2K}{4}{section*.6}
+\contentsline {section}{\numberline {IV}ND280: Current State}{6}{section*.9}
+\contentsline {subsection}{\numberline {A}$\pi ^0$ Detector (P\O D)}{6}{section*.11}
+\contentsline {subsection}{\numberline {B}Fine Grain Detectors (FGDs)}{7}{section*.12}
+\contentsline {subsection}{\numberline {C}Time Projection Chambers (TPCs)}{7}{section*.13}
+\contentsline {subsection}{\numberline {D}Electronic Calorimeter (ECal)}{7}{section*.14}
+\contentsline {subsection}{\numberline {E}ND280 Software}{7}{section*.15}
+\contentsline {section}{\numberline {V}Hardware Upgrades}{9}{section*.17}
+\contentsline {section}{\numberline {VI}Super-FGD Beam Test}{10}{section*.19}
+\contentsline {subsection}{\numberline {A}The Super-FGD Prototype}{10}{section*.20}
+\contentsline {subsection}{\numberline {B}The Beam Test Configuration}{11}{section*.23}
+\contentsline {subsection}{\numberline {C}Assembling the Prototype}{11}{section*.24}
+\contentsline {subsection}{\numberline {D}Intitial Beam Test Results}{11}{section*.25}
+\contentsline {section}{\numberline {VII}Software Upgrades}{11}{section*.26}
+\contentsline {subsection}{\numberline {A}Version Control}{11}{section*.27}
+\contentsline {subsection}{\numberline {B}Package Names}{12}{section*.28}
+\contentsline {subsection}{\numberline {C}CMake and CMT}{13}{section*.29}
+\contentsline {subsection}{\numberline {D}Mix-in Classes}{13}{section*.30}
+\contentsline {section}{\numberline {VIII}Electron Neutrino Detection}{14}{section*.31}
+\contentsline {subsection}{\numberline {A}Cuts}{14}{section*.32}
+\contentsline {subsection}{\numberline {B}Analysis}{14}{section*.33}
+\contentsline {section}{\numberline {IX}Future Work}{14}{section*.34}
+\contentsline {section}{\numberline {X}Summary}{14}{section*.35}
+\contentsline {section}{\numberline {}References}{14}{section*.36}
