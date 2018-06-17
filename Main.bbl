@@ -44,16 +44,13 @@ B.~Kayser, \emph{{B-Meson and Neutrino Oscillation: A Unified Treatment}}, AIP
   Conf. Proc. \textbf{1441}, 464 (2011), \url{arXiv}:\url{1110.3047}.
 
 \bibitem{Jamieson:2015rza}
-B.~Jamieson (T2K).
-\newblock \emph{{First muon anti-neutrino disappearance oscillation results
-  from T2K}}.
-\newblock In \emph{{Proceedings, 12th Conference on the Intersections of
-  Particle and Nuclear Physics (CIPANP 2015): Vail, Colorado, USA, May 19-24,
-  2015}} (2015).
-\newblock \url{arXiv}:\url{1509.08889}.
+B.~Jamieson (T2K), \emph{{First muon anti-neutrino disappearance oscillation
+  results from T2K}}, In \emph{{Proceedings, 12th Conference on the
+  Intersections of Particle and Nuclear Physics (CIPANP 2015): Vail, Colorado,
+  USA, May 19-24, 2015}} (2015), \url{arXiv}:\url{1509.08889}.
 
 \bibitem{ABE2011106}
-K.~Abe et~al., \emph{The T2K experiment}, Nucl, Instrum. Methods Phys. Res.
+K.~Abe et~al., \emph{The T2K experiment}, Nucl. Instrum. Methods Phys. Res.
   Sect. A \textbf{659}~(1), 106--135 (2011).
 
 \bibitem{Assylbekov:2011sh}
@@ -88,11 +85,10 @@ S.~Agostinelli et~al., \emph{Geant4{\textemdash}a simulation toolkit}, Nuclear
   (2003).
 
 \bibitem{Arnault:2000vu}
-C.~Arnault.
-\newblock \emph{{CMT: A software configuration management tool}}.
-\newblock In \emph{{Proceedings, 11th International Conference on Computing in
-  High-Energy and Nuclear Physics (CHEP 2000): Padua, Italy, February 7-11,
-  2000}}, pages 692--695 (2000).
+C.~Arnault, \emph{{CMT: A software configuration management tool}}, In
+  \emph{{Proceedings, 11th International Conference on Computing in High-Energy
+  and Nuclear Physics (CHEP 2000): Padua, Italy, February 7-11, 2000}}, pages
+  692--695 (2000).
 
 \bibitem{Berliner2001}
 B.~Berliner and J.~Polk, \emph{Concurrent Version Systems (CVS)}  (2001).
@@ -114,6 +110,12 @@ C.~Andreopoulos et~al., \emph{The {GENIE} neutrino Monte Carlo generator},
 \bibitem{Blondel:2299599}
 P.~Hamacher-Baumann et~al., \emph{{The T2K-ND280 upgrade proposal}}, Technical
   Report CERN-SPSC-2018-001. SPSC-P-357, CERN, Geneva (2018).
+
+\bibitem{Durieu2001}
+L.~Durieu, M.~Martini, and A.-S. Muller, \emph{Optics studies for the T9 beam
+  line in the {CERN} {PS} East Area secondary beam facility}, In
+  \emph{{PACS}2001. Proceedings of the 2001 Particle Accelerator Conference
+  (Cat. No.01CH37268)}, {IEEE} (2001).
 
 \bibitem{Wu2017}
 C.~Wu, \emph{Search for Muon to Electron Conversion at J-{PARC}}, Nuclear and

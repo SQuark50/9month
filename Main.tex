@@ -1,6 +1,6 @@
 \documentclass[aps,pra,12pt,notitlepage,tightenlines]{revtex4-1}
-\usepackage[margin=2cm]{geometry}
-\usepackage{amsmath,amssymb,textcomp,graphicx,url,bm,lipsum,hyperref,color,subcaption}
+%\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,textcomp,graphicx,url,bm,lipsum,hyperref,color,subcaption,afterpage,gensymb}
 
 \newcommand\matr[1]{\bm{#1}}
 \newcommand\barparen[1]{\overset{\textbf{\fontsize{5pt}{5pt}\selectfont(---)}}{#1}}
@@ -107,18 +107,17 @@ T2K uses a neutrino beam that is generated at the Japan Proton Accelerator Resea
  \label{fig:t2k}
 \end{figure}
 
-The INGRID detector lies on the axis of the neutrino beam, but ND280 and SK are 2.5~degrees off-axis, which sets the peak of the neutrino flux at 600~MeV, the energy at which muon neutrino disappearance is most likely. Fig.\ \ref{fig:axis} 
+The INGRID detector lies on the axis of the neutrino beam, but ND280 and SK are 2.5\degree\ off-axis, which sets the peak of the neutrino flux at 600~MeV, the energy at which muon neutrino disappearance is most likely. Fig.\ \ref{fig:axis} 
 \begin{figure}
  \includegraphics[scale=0.5]{axis.png}
  \caption{A probability plot (top) of the probability of muon neutrino survival as a function of energy, and a plot of the neutrino beam energy flux (bottom) for several off-axis angles.}
  \label{fig:axis}
 \end{figure}
-shows the flux of the neutrino beam as a function of neutrino energy, at several different off-axis angles. Also shown is the probability of a muon neutrino not oscillating as a function of neutrino energy. It is clear that the peak flux for a 2.5~degree off-axis angle occurs at the same energy as one of the minimum points in the probability plot.
+shows the flux of the neutrino beam as a function of neutrino energy, at several different off-axis angles. Also shown is the probability of a muon neutrino not oscillating as a function of neutrino energy. It is clear that the peak flux for a 2.5\degree\ off-axis angle occurs at the same energy as one of the minimum points in the probability plot.
 
 In this report, we will only give details on the ND280 detector and its proposed upgrades. Information on the other detectors and the beamline is given elsewhere~\cite{ABE2011106}.
 
 \section{ND280: Current State}
-
 ND280, so called because it is a Near Detector 280~m away from the neutrino beam's origin, measures the flux, the energy spectrum, and the flavour content of the neutrino beam. This allows comparison with measurements at the far detector, leading to calculations of neutrino oscillation parameters by observing how the flavour content of the beam has changed as a function of energy. 
 
 As well as monitoring the beam characteristics, ND280 also takes data for neutrino cross-section measurements, which helps provide a more accurate oscillation analysis. 
@@ -131,7 +130,6 @@ The detector itself can be broken down into three main systems: a $\pi^0$ detect
 \end{figure} 
 
 \subsection{$\pi^0$ Detector (P\O D)}
-
 Neutral pions are a major source of uncertainty at T2K, as they can be misidentified as electrons in SK. To reduce the uncertainty caused by these misidentifications, the P\O D is used to measure the cross-sections of neutrino interactions, specifically with water, where a $\pi^0$ appears in the final state. Using this cross-section data, the number of $\pi^0$s produced in SK can then be calculated and taken into account.
 
 The detector has a central water target, which constitutes alternating layers of brass, scintillator, and fillable water target bags. This central target is preceded and followed by electromagnetic calorimeters, comprised of alternating sheets of lead and scintillator. The ECals are used for rejecting particles entering the P\O D that originated from outside the detector, and also to contain and measure electromagnetic showers. Cross-section values can be deduced by taking measurements when the target bags in the central water target are filled with water and comparing them to when they are empty~\cite{ABE2011106, Assylbekov:2011sh}.
@@ -177,9 +175,15 @@ The proposed upgraded ND280 is shown in Fig.\ \ref{fig:up}.
  \caption{The proposed upgrade of ND280. The new additions are the horizontal TPCs (light brown) and the scintillator detector (grey), which replace the P\O D. The ``bucket'' is a framework that supports the detectors. Not shown are the barrel ECals that will surround the detectors, similar to the original design. The neutrino beam propagates in the $z$ direction~\cite{Blondel:2299599}.}
  \label{fig:up}
 \end{figure}
-The downstream end of the detector will remain unchanged, with three TPCs separated by two FGDs. At the upstream end, however, the central P\O D module (not the ECal endcaps) will be replaced by a scintillator detector sandwiched between two horizontal TPCs. The scintillator detector will act as a target material, with the TPCs distributed around it giving nearly 4$\pi$ solid angle coverage. This  will address an issue with the old ND280 design: the tracking efficiency is biased towards low scattering angles. This is because, after a neutrino has interacted in an FGD, the resulting lepton is only seen in the downstream TPC if the scattering angle is less than $\sim$40 degrees with respect to the beam direction. The TPC gives important information on the interaction, so most interaction samples exclude leptons with high scattering angles. This creates problems when comparing data with SK, which has a flat efficiency with respect to scattering angle.
+The downstream end of the detector will remain unchanged, with three TPCs separated by two FGDs. At the upstream end, however, the central P\O D module (not the ECal endcaps) will be replaced by a scintillator detector sandwiched between two horizontal TPCs. The scintillator detector will act as a target material, with the TPCs distributed around it giving nearly 4$\pi$ solid angle coverage. This  will address an issue with the old ND280 design: the tracking efficiency is biased towards low scattering angles. This is because, after a neutrino has interacted in an FGD, the resulting lepton is only seen in the downstream TPC if the scattering angle is less than $\sim$40\degree\ with respect to the beam direction. The TPC gives important information on the interaction, so most interaction samples exclude leptons with high scattering angles. This creates problems when comparing data with SK, which has a flat efficiency with respect to scattering angle.
 
-The new scintillator detector will have a first-of-its-kind ``Super-FGD'' design that incorporates scintillator cubes rather than bars, which can be read out from three orthogonal directions by wavelength shifting (WLS) fibres. The cubes' side length will be between 1--2~cm, with the larger lengths sacrificing granularity for a smaller number of cubes and readouts. The size of the cubes is comparable to the height and width of the scintillator bars used in the current design, but the bars only give readouts in two directions. The extra information provided by the cubes helps to reconstruct the paths of multiple particles. Fig.~\ref{fig:sfgd} shows an illustration of the Super-FGD design.
+The new scintillator detector will have a first-of-its-kind ``Super-FGD'' design that incorporates scintillator cubes rather than bars, which can be read out from three orthogonal directions by wavelength shifting (WLS) fibres. The cubes' side length will be between 1--2~cm, with the larger lengths sacrificing granularity for a smaller number of cubes and readouts. The size of the cubes is comparable to the height and width of the scintillator bars used in the current design, but the bars only give readouts in two directions. The extra information provided by the cubes helps to reconstruct the paths of multiple particles. Fig.~\ref{fig:sfgd}
+ \begin{figure}
+  \includegraphics[scale=0.75]{SFGD.png}
+  \caption{A rendering of the Super-FGD to be used in the upgraded ND280. The detector comprises many small plastic scintillator cubes that are read off in three orthogonal directions by wavelength shifting fibres. There are fewer cubes depicted here than there will be in the actual detector, to make the diagram clearer~\cite{Blondel:2299599}.}
+  \label{fig:sfgd}
+ \end{figure}
+shows an illustration of the Super-FGD design.
 
 Not shown in the diagram of the ND280 upgrade (Fig.\ \ref{fig:up}) are the new Time-Of-Flight (TOF) detectors that are to be installed. These will be placed around the volume containing the scintillator detector and the horizontal TPCs. The TOF detectors will help identify whether a particle originated from inside or outside the detector, and will also aid with particle identification. The design of the TOF detectors is as yet undecided. There are two possible candidates, one based on wavelength shifting fibres and the other based on plastic scintillator bars. A prototype of the latter design is being constructed in 2018 and will be used in conjunction with the test-beam that will be run at the end of 2018. Prototypes of the horizontal TPC and the Super-FGD will also be used in the test-beam, the latter of which will be explained in more detail in the next section.
 
@@ -187,39 +191,48 @@ Not shown in the diagram of the ND280 upgrade (Fig.\ \ref{fig:up}) are the new T
 The beam test for the Super-FGD prototype is scheduled for June 27th -- July 11th 2018, taking place at CERN. At the time of submission for this report the beam test will be partially completed, making it difficult to report results. I will be at CERN for the beam test and the weeks preceding it, so I will report on the set-up of the beam test, the prototype's design and the initial results, as well as describing my specific roles in the preparation and testing.
 
 \subsection{The Super-FGD Prototype}
-\begin{figure}
- \includegraphics[scale=0.75]{SFGD.png}
- \caption{A rendering of the Super-FGD to be used in the upgraded ND280. The detector comprises many small plastic scintillator cubes that are read off in three orthogonal directions by wavelength shifting fibres. There are fewer cubes depicted here than there will be in the actual detector, to make the diagram clearer~\cite{Blondel:2299599}.}
- \label{fig:sfgd}
-\end{figure}
-The scintillator cubes comprising the Super-FGD prototype are 1~cm long. A total of //NUMBER cubes are present, each threaded in three orthogonal directions by WLS fibres. On one end of each fibre is a connector, which attaches to another connector in which is housed a Multiple Photon Pixel Counter (MPPC) that sends a signal down a length of cable to a circuit board where the signal is processed //MORE DETAIL. Two photographs of the prototype are shown in Fig.\ \ref{fig:proto},
-\begin{figure}
-\centering
-\begin{subfigure}{.5\textwidth}
+The prototype scintillator detector measures $24\times48\times8$ cm$^3$ and comprises 9216 extruded polystyrene mixed with p-terphenyl plastic scintillator cubes, each 1~cm long. There are a total of 1728 WLS fibres threaded through the cubes. On one end of each fibre is a connector, which attaches to another connector in which is housed a Multiple Photon Pixel Counter (MPPC) that sends a signal down a length of cable to a circuit board where the signal is processed //MORE DETAIL. Two photographs of the prototype are shown in Fig.\ \ref{fig:proto},
+ \begin{figure}
   \centering
-  \includegraphics[width=.7\linewidth]{proto}
-  \caption{•}
-  \label{protoa}
-\end{subfigure}%
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=.8\linewidth]{side}
-  \caption{•}
-  \label{protob}
-\end{subfigure}
-\caption{Photographs of the Super-FGD prototype after being delivered to CERN. These were taken before the electronics were fitted for the beam test. (a) shows the whole detector, along with the frame it is housed in. (b) is a close-up of one of the detector's sides, giving a clear view of the scintillator cubes and the WLS fibres. The black connectors are where the readout electronics will be attached.}
-\label{fig:proto}
-\end{figure}
+  \begin{subfigure}{.5\textwidth}
+   \centering
+   \includegraphics[width=.7\linewidth]{proto}
+   \caption{•}
+   \label{protoa}
+  \end{subfigure}%
+  \begin{subfigure}{.5\textwidth}
+   \centering
+   \includegraphics[width=.8\linewidth]{side}
+   \caption{•}
+   \label{protob}
+  \end{subfigure}
+  \caption{Photographs of the Super-FGD prototype after being delivered to CERN. These were taken before the electronics were fitted for the beam test. (a) shows the whole detector, along with the frame it is housed in. (b) is a close-up of one of the detector's sides, giving a clear view of the scintillator cubes and the WLS fibres. The black connectors are where the readout electronics will be attached.}
+  \label{fig:proto}
+ \end{figure}
 one shows the construct as a whole, housed in it's frame (Fig.\ \ref{protoa}); and the other displays a close-up of the side of the detector (Fig.\ \ref{protob}).
 
+%\subsection{Readout Electronics}
 
-\subsection{The Beam Test Configuration}
+\subsection{The Beam Test Configuration} //TENSE??
+The beam test is taking place in the East Area of the Proton Synchotron at CERN. Test-beam T9 is being used to fire $p, \ e^+, \ e^-, \ \pi^+, \ \pi^-, \ \mu^+$ and $\mu^-$ particles at the Super-FGD prototype with momenta ranging between 0.5--3~GeV (this is the expected momentum range for particles to be produced in the ND280 detector)~\cite{Durieu2001}. The prototype will be placed inside the MNP17 magnet, which is present for Particle Identification (PID). The readout electronics need to be placed outside the magnet field, hence long cables are needed to connect the detector to the electronics. Fig.\ \ref{fig:plat}
+\begin{figure}
+ \includegraphics[scale=0.8]{platform}
+ \caption{platform}
+ \label{fig:plat}
+\end{figure}
+shows how the detector is oriented with the magnet, as well as the readout electronics, which are kept in metal boxes called ``minicrates''.
+
+\begin{figure}
+ \includegraphics[scale=0.55]{daq}
+ \caption{A schematic of the layout and DAQ for the beam test. The yellow boxes labelled S are beam scintillator counters and the ones labelled Ch are Cherenkov detectors. These are used in the trigger system for the Super-FGD prototype, labelled sFGD in the diagram. PID can be performed with the detectors in the triggering system by using time-of-flight and Cherenkov signals. There are two independent DAQ systems, one based on WaveCatcher, and the other BabyMIND, which is self-triggering. Also shown are the number of channels (ch) from each trigger component.}
+ \label{fig:daq}
+\end{figure}
 
 \subsection{Assembling the Prototype}
 
-\subsection{Intitial Beam Test Results}
+\subsection{Initial Beam Test Results}
 
-\section{Software Upgrades}
+\section{Software Changes}
 There have been few changes to ND280's software structure since it was conceived 14 years ago, despite many new and upgraded software tools being introduced by developers. The proposal of an upgrade to ND280's hardware has sparked discussions of updates to the software, none of which will include a major overhaul of the framework, but will help streamline the code for the modern day developer. In this section, we will outline the changes that have been proposed following discussions from the ND280 software group, some of which are still subject to certain conditions and may change later on.
 
 \subsection{Version Control}
@@ -227,7 +240,7 @@ CVS has been the version control system (VCS) of ND280 since it was first made. 
 
 Given these advantages and many others, the ND280 software will be moved to a Git-based repository. It is most likely, though, that a frozen version of the latest software version at the time of migration will be kept on CMT, as means of a back-up. It's also possible that people can still commit changes to the CVS version after the migration, which will then be ported to the Git version, though this is still undecided.
 
-There is also the question of which Git service to use. The choice is between GitHub, a popular VCS run on a **commercial** server, which would require a paid subscription to keep the code stored there to be kept private. Alternatively, there is GitLab, a service specifically made with scientific experiments in mind, which requires a private server to be hosted. With this VCS the software will not be viewable by anyone, and specific levels of access can be given to individuals. There is also the benefit of built in continuous integration, a feature that makes the process of editing and committing code that much faster.
+There is also the question of which Git service to use. The choice is between GitHub, a popular VCS run on a //**commercial** server, which would require a paid subscription to keep the code stored there to be kept private. Alternatively, there is GitLab, a service specifically made with scientific experiments in mind, which requires a private server to be hosted. With this VCS the software will not be viewable by anyone, and specific levels of access can be given to individuals. There is also the benefit of built in continuous integration, a feature that makes the process of editing and committing code that much faster.
 
 There has been no official decision as to which Git service to use, although it seems that people are swaying towards the GitLab option, for its extra features and--as was CVS back in the day--structure tailor-made for scientists. This would require a private server, but the University of Warsaw, Poland, has offered to do this.
 

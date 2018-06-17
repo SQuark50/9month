@@ -470,4 +470,26 @@
   url      = {http://stacks.iop.org/1742-6596/396/i=5/a=052021},
 }
 
+@InProceedings{Jamieson:2015rza,
+  author        = {Jamieson, Blair},
+  title         = {{First muon anti-neutrino disappearance oscillation results from T2K}},
+  booktitle     = {{Proceedings, 12th Conference on the Intersections of Particle and Nuclear Physics (CIPANP 2015): Vail, Colorado, USA, May 19-24, 2015}},
+  year          = {2015},
+  archiveprefix = {arXiv},
+  collaboration = {T2K},
+  eprint        = {1509.08889},
+  primaryclass  = {hep-ex},
+  slaccitation  = {%%CITATION = ARXIV:1509.08889;%%},
+  url           = {http://inspirehep.net/record/1395255/files/arXiv:1509.08889.pdf},
+}
+
+@InProceedings{Durieu2001,
+  author    = {L. Durieu and M. Martini and A.-S. Muller},
+  title     = {Optics studies for the T9 beam line in the {CERN} {PS} East Area secondary beam facility},
+  booktitle = {{PACS}2001. Proceedings of the 2001 Particle Accelerator Conference (Cat. No.01CH37268)},
+  year      = {2001},
+  publisher = {{IEEE}},
+  doi       = {10.1109/pac.2001.986743},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

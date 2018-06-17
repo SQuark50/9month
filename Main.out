@@ -11,19 +11,19 @@
 \BOOKMARK [2][-]{section*.14}{Electronic Calorimeter \(ECal\)}{section*.9}% 11
 \BOOKMARK [2][-]{section*.15}{ND280 Software}{section*.9}% 12
 \BOOKMARK [1][-]{section*.17}{Hardware Upgrades}{section*.2}% 13
-\BOOKMARK [1][-]{section*.19}{Super-FGD Beam Test}{section*.2}% 14
-\BOOKMARK [2][-]{section*.20}{The Super-FGD Prototype}{section*.19}% 15
-\BOOKMARK [2][-]{section*.23}{The Beam Test Configuration}{section*.19}% 16
-\BOOKMARK [2][-]{section*.24}{Assembling the Prototype}{section*.19}% 17
-\BOOKMARK [2][-]{section*.25}{Intitial Beam Test Results}{section*.19}% 18
-\BOOKMARK [1][-]{section*.26}{Software Upgrades}{section*.2}% 19
-\BOOKMARK [2][-]{section*.27}{Version Control}{section*.26}% 20
-\BOOKMARK [2][-]{section*.28}{Package Names}{section*.26}% 21
-\BOOKMARK [2][-]{section*.29}{CMake and CMT}{section*.26}% 22
-\BOOKMARK [2][-]{section*.30}{Mix-in Classes}{section*.26}% 23
-\BOOKMARK [1][-]{section*.31}{Electron Neutrino Detection}{section*.2}% 24
-\BOOKMARK [2][-]{section*.32}{Cuts}{section*.31}% 25
-\BOOKMARK [2][-]{section*.33}{Analysis}{section*.31}% 26
-\BOOKMARK [1][-]{section*.34}{Future Work}{section*.2}% 27
-\BOOKMARK [1][-]{section*.35}{Summary}{section*.2}% 28
-\BOOKMARK [1][-]{section*.36}{References}{section*.2}% 29
+\BOOKMARK [1][-]{section*.20}{Super-FGD Beam Test}{section*.2}% 14
+\BOOKMARK [2][-]{section*.21}{The Super-FGD Prototype}{section*.20}% 15
+\BOOKMARK [2][-]{section*.23}{The Beam Test Configuration}{section*.20}% 16
+\BOOKMARK [2][-]{section*.26}{Assembling the Prototype}{section*.20}% 17
+\BOOKMARK [2][-]{section*.27}{Initial Beam Test Results}{section*.20}% 18
+\BOOKMARK [1][-]{section*.28}{Software Changes}{section*.2}% 19
+\BOOKMARK [2][-]{section*.29}{Version Control}{section*.28}% 20
+\BOOKMARK [2][-]{section*.30}{Package Names}{section*.28}% 21
+\BOOKMARK [2][-]{section*.31}{CMake and CMT}{section*.28}% 22
+\BOOKMARK [2][-]{section*.32}{Mix-in Classes}{section*.28}% 23
+\BOOKMARK [1][-]{section*.33}{Electron Neutrino Detection}{section*.2}% 24
+\BOOKMARK [2][-]{section*.34}{Cuts}{section*.33}% 25
+\BOOKMARK [2][-]{section*.35}{Analysis}{section*.33}% 26
+\BOOKMARK [1][-]{section*.36}{Future Work}{section*.2}% 27
+\BOOKMARK [1][-]{section*.37}{Summary}{section*.2}% 28
+\BOOKMARK [1][-]{section*.38}{References}{section*.2}% 29

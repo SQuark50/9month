@@ -1349,15 +1349,15 @@ FUNCTION {incollection}
 FUNCTION {inproceedings}
 { output.bibitem
   format.authors "author" output.check
-  new.block
+  %new.block
   format.title "title" output.check
-  new.block
+  %new.block
   crossref missing$
     { format.in.ed.booktitle "booktitle" output.check
       format.bvolume output
       format.number.series output
       format.pages output
-      new.sentence
+      %new.sentence
       publisher empty$
         { format.organization.address output }
         { organization "organization" bibinfo.check output
@@ -1372,7 +1372,7 @@ FUNCTION {inproceedings}
       format.pages output
     }
   if$
-  new.block
+  %new.block
   format.note output
   format.eprint output
   %format.url output
