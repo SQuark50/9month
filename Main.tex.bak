@@ -102,7 +102,7 @@ Eq.~\ref{eq:p} can only be applied to neutrinos travelling through a vacuum. For
 \section{T2K}
 T2K uses a neutrino beam that is generated at the Japan Proton Accelerator Research Complex (J-PARC) in Tokai. The beam crosses the breadth of the main Japanese island, Honshu, from Tokai on the east coast to Kamioka on the west coast, travelling in a straight line through the Earth's crust. In Tokai, the beam passes through two near detectors---INGRID and ND280---that are 280~m from the beam's origin. At Kamioka, the beam reaches the far detector, SK, 295~km from the origin. An illustration of the experiment is shown in Fig.\ \ref{fig:t2k}.
 \begin{figure}
- \includegraphics[scale=0.31]{T2K_detail}
+ \includegraphics[scale=0.33]{T2K_detail}
  \caption{A diagram showing the journey of the neutrino beam produced in the T2K experiment, along with illustrative photos of each major stage of the beam. The beam originates at J-PARC, then passes through the two near detectors, INGRID and ND280, which are on- and off-axis respectively. After travelling 295~km the beam then passes through the Super-Kamiokande water cherenkov detector, which is also off-axis~\cite{Jamieson:2015rza}.}
  \label{fig:t2k}
 \end{figure}
