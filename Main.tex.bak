@@ -9,6 +9,8 @@
 
 \newcommand{\nue}{$\nu_e$ }
 \newcommand{\anue}{$\bar\nu_e$ }
+\newcommand{\numu}{$\nu_\mu$ }
+\newcommand{\anumu}{$\bar\nu_\mu$ }
 
 \begin{document}
 
@@ -110,7 +112,9 @@ where $\Delta m^2_{ij} = m^2_i - m^2_j$ is the difference between the squared ma
 Eq.~(\ref{eq:p}) can only be applied to neutrinos travelling through a vacuum. For neutrino propagation through matter, see the report by Kayser~\cite{Kayser:2005cd}.
 
 \section{T2K}
-The T2K experiment spans 295~km from the east coast of the main Japanese island, Honshu, to the west coast. The size of the experiment is one of it's advantages, as it enables the analysis of neutrinos that propagate long distances, making it more likely to observe oscillation and allowing sampling of areas of the parameter space that shorter baseline experiments can't reach. The neutrino beam of T2K is generated at the Japan Proton Accelerator Research Complex (J-PARC) in Tokai. The beam is directed towards the other end of the experiment in Kamioka, travelling in a straight line through the Earth's crust. In Tokai, the beam passes through two near detectors---INGRID and ND280---that are 280~m from the beam's origin. At Kamioka, the beam reaches the far detector, SK, 295~km from the origin. An illustration of the experiment is shown in Fig.\ \ref{fig:t2k}.
+The T2K experiment spans 295~km from the east coast of the main Japanese island, Honshu, to the west coast. The size of the experiment is one of it's advantages, as it enables sampling of areas of the parameter space that shorter baseline experiments can't access. 
+
+The neutrino beam of T2K is generated at the Japan Proton Accelerator Research Complex (J-PARC) in Tokai. The beam is directed towards the other end of the experiment in Kamioka, travelling in a straight line through the Earth's crust. In Tokai, the beam passes through two near detectors---INGRID and ND280---that are 280~m from the beam's origin. At Kamioka, the beam reaches the far detector, SK. An illustration of the experiment is shown in Fig.\ \ref{fig:t2k}.
 \begin{figure}
  \includegraphics[scale=0.33]{T2K_detail}
  \caption{A diagram showing the path of the neutrino beam produced in the T2K experiment, along with illustrative photos/models of each major stage of the beam~\cite{Jamieson:2015rza}.}
@@ -123,28 +127,30 @@ The INGRID detector lies on the axis of the neutrino beam, but ND280 and SK are 
  \caption{A plot (top) of the probability of muon neutrino survival as a function of energy, and a plot of the neutrino beam energy flux (bottom) for several off-axis angles.}
  \label{fig:axis}
 \end{figure}
-shows the flux of the neutrino beam as a function of neutrino energy, at several different off-axis angles. Also shown is the probability of a muon neutrino not oscillating as a function of neutrino energy. It is clear that the peak flux for a 2.5\degree\ off-axis angle occurs at the same energy as one of the minimum points in the probability plot.
+shows the flux of the neutrino beam as a function of neutrino energy at several different off-axis angles. Also shown is the probability of a muon neutrino keeping its muon flavour as a function of neutrino energy. It is clear that the peak flux for a 2.5\degree\ off-axis angle occurs at the same energy as one of the minimum points in the probability plot.
 
-The content of the neutrino beam used in T2K can be switched between muon neutrinos (\nue) and anti-muon neutrinos (\anue). The neutrinos are produced from the decay of muons, which are focused by electromagnetic horns. Reversing the current passed the horns causes particles of opposite charge to be focused, hence one can focus muons or anti-muons depending on the current's direction. The mode in which muons are focussed to give a \nue beam is the forward horn current (FHC) mode, and to focus anti-muons and create a \anue beam the reverse horn current (RHC) mode is needed.
+The content of the neutrino beam used in T2K can be switched between muon neutrinos (\numu) and anti-muon neutrinos (\anumu). The neutrinos are produced from the decay of muons, which are focused by electromagnetic horns. Reversing the current passed through the horns causes particles of opposite charge to be focused, hence one can focus muons or anti-muons depending on the current's direction. The mode in which muons are focused to give a \numu beam is the forward horn current (FHC) mode, and to focus anti-muons and create a \anumu beam the reverse horn current (RHC) mode is needed.
 
-In the next section, we will give details on the ND280 detector and its proposed upgrades. Information on the other T2K detectors and the beamline is given elsewhere~\cite{ABE2011106}.
+In the next section, we will give details on T2K's ND280 detector and its proposed upgrades for the next phase of data-taking. Information on the other T2K detectors and the beamline is given elsewhere~\cite{ABE2011106}.
 
 \section{ND280: Current State}
-ND280, so called because it is a Near Detector 280~m away from the neutrino beam's origin, measures the flux, the energy spectrum, and the flavour content of the neutrino beam. This allows comparison with measurements at the far detector, leading to calculations of neutrino oscillation parameters by observing how the flavour content of the beam has changed as a function of energy. 
+ND280---so called because it is a Near Detector 280~m away from the neutrino beam's origin---gathers data on the neutrino beam to estimate the beam's flux, energy spectrum, and flavour content. This allows comparison with measurements at the far detector, leading to calculations of neutrino oscillation parameters by observing how the flavour content of the beam has changed as a function of energy. 
 
-As well as monitoring the beam characteristics, ND280 also takes data for neutrino cross-section measurements, which helps provide a more accurate oscillation analysis. 
+As well as monitoring the beam characteristics, ND280 also takes data for neutrino cross-section measurements, helping to provide a more accurate analysis of the oscillation data. 
 
-The detector itself can be broken down into three main systems: a $\pi^0$ detector (P\O D), a tracker consisting of several fine grain detectors (FGDs) and time-projection chambers (TPCs), and an electromagnetic calorimeter (ECal). The whole detector is subject to a 0.2 T magnetic field for particle identification and momentum determination (see Fig.\ \ref{fig:ND} for visualisation).
+The detector itself can be broken down into four main systems: a $\pi^0$ detector (P\O D), a tracker consisting of several fine grain detectors (FGDs) and time-projection chambers (TPCs), an electromagnetic calorimeter (ECal), and the side muon range detector (SMRD). The whole detector is subject to a 0.2~T magnetic field for particle identification (PID) and momentum determination. See Fig.\ \ref{fig:ND} for a visualisation of the ND280 detector and its sub-detectors.
 \begin{figure}
  \includegraphics[scale=1]{ND280.png}
- \caption{Expanded view of the ND280 detector, showing the positions of each of the three main sub-systems. The entire detector is encased in the UA1 magnet with a 0.2~T magnetic field~\cite{ABE2011106}.}
+ \caption{Expanded view of the ND280 detector, showing the positions of each of the three main sub-systems and sub-detectors. The entire detector is encased in the UA1 magnet with a 0.2~T magnetic field~\cite{ABE2011106}.}
  \label{fig:ND}
-\end{figure} 
+\end{figure}
+
+The sub-detectors of ND280 will now be described in more detail, apart from the SMRD, which can be read about in the literature~\cite{Aoki2013}.
 
 \subsection{$\pi^0$ Detector (P\O D)}
-Neutral pions are a major source of uncertainty at T2K, as they can be misidentified as electrons in SK. To reduce the uncertainty caused by these misidentifications, the P\O D is used to measure the cross-sections of neutrino interactions, specifically with water, where a $\pi^0$ appears in the final state. Using this cross-section data, the number of $\pi^0$s produced in SK can then be calculated and taken into account.
+T2K's far detector, SK, has difficulty discerning between electrons and pions. To reduce this systematic error, the P\O D sub-detector of ND280 is used to measure the cross-sections of neutrino interactions, specifically with water, where a neutral pion ($\pi^0$) appears in the final state. Using this cross-section data, the number of $\pi^0$s produced in SK can then be calculated and taken into account.
 
-The detector has a central water target, which constitutes alternating layers of brass, scintillator, and fillable water target bags. This central target is preceded and followed by electromagnetic calorimeters, comprised of alternating sheets of lead and scintillator. The ECals are used for rejecting particles entering the P\O D that originated from outside the detector, and also to contain and measure electromagnetic showers. Cross-section values can be deduced by taking measurements when the target bags in the central water target are filled with water and comparing them to when they are empty~\cite{ABE2011106, Assylbekov:2011sh}.
+The central section of the P\O D consists of alternating layers of brass, plastic scintillator, and fillable water bags. This central target is preceded and followed by electromagnetic calorimeters comprised of alternating sheets of lead and scintillator. The ECals are used for rejecting particles entering the P\O D that originated from outside the detector and also to contain and measure electromagnetic showers. Cross-section values can be deduced by taking measurements when the target bags in the central water target are filled with water and comparing them to when they are empty~\cite{ABE2011106, Assylbekov:2011sh}.
 
 \subsection{Fine Grain Detectors (FGDs)}
 The FGDs provide mass with which incoming neutrinos can interact. They also provide precision tracking to map out the interaction vertices. They consist of bars of scintillator, oriented perpendicular to the neutrino beam, stacked to form layers. Two layers are attached together to form a module, with the bars of one layer being arranged vertically, and the other layer horizontally. This allows precise determination of particle position in two dimensions.
@@ -240,10 +246,10 @@ Fig.\ \ref{fig:protoa} shows the construct as a whole, housed in it's frame. Fig
 \subsection{The Beam Test Configuration} //TENSE??
 The beam test is taking place in the East Area of the Proton Synchotron at CERN. Test-beam T9 is being used to fire $p, \ e^+, \ e^-, \ \pi^+, \ \pi^-, \ \mu^+$ and $\mu^-$ particles at the Super-FGD prototype with momenta ranging between 0.5--3~GeV (this is the expected momentum range for particles to be produced in the ND280 detector)~\cite{Durieu2001}. 
 
-The prototype will be placed inside the MNP17 magnet, which is present for particle identification (PID)~\cite{Brooks2015}. The magnetic flux density will be set to 0.2~T, the same as the UA1 magnet of ND280. The readout electronics need to be placed outside the magnet field, hence long cables ($\sim$1.5~m long) are needed to connect the detector to the electronics. Fig.\ \ref{fig:plat}
+The prototype will be placed inside the MNP17 magnet, which is present for PID~\cite{Brooks2015}. The magnetic flux density will be set to 0.2~T, the same as the UA1 magnet of ND280. The readout electronics need to be placed outside the magnet field, hence long cables ($\sim$1.5~m long) are needed to connect the detector to the electronics. Fig.\ \ref{fig:plat}
 \begin{figure}
  \includegraphics[scale=0.8]{platform}
- \caption{A plan of the orientation of the prototype detector and its DAQ electronics with respect to the MNP17 magnet. The prototype will be on a mechanical platform that can rotate about the horizontal axis parallel to the beam and the vertical axis.}
+ \caption{A plan of the orientation of the prototype detector and its DAQ electronics with respect to the MNP17 magnet. Not shown is the upper platform of the magnet, which sits 290~mm above the lower platform. In order to access the prototype during the beam test, it will be placed on a mechanical platform that can slide out of the magnet. The platform will also rotate about the horizontal axis parallel to the beam and the vertical axis to allow different orientations of the prototype with respect to the beam.}
  \label{fig:plat}
 \end{figure}
 shows how the detector is oriented with the magnet, as well as the readout electronics, which are kept in metal boxes called ``minicrates''. The prototype is kept on a rotating platform so the detector's response to particles incoming at several angles can be tested.
@@ -296,7 +302,7 @@ The software of ND280 currently uses ROOT5, but the latest version is ROOT6. It 
 
 To gauge how big of a job this would be, I performed a survey on the software to count the number of times mix-in classes are used (they can be identified by the ``TM'' prefix and ``State'' suffix in their name). The survey also identified the software packages and files each reference to the mix-in class was made in, but here I will only quote the final count of mix-in classes: five classes inherited a mix-in class and the mix-in classes are directly used in the code 50 times. This is relatively infrequent so the transition to ROOT6 shouldn't be significantly delayed by the reimplementation of these classes.
 
-\section{Electron Neutrino Detection at ND280}
+\section{\mbox{(Anti-)Electron} Neutrino Detection at ND280}
 I am currently assisting with the production 7 analysis of anti-neutrino beam data from ND280 for \nue and \anue charged current interactions producing no pions ($\nu_e$/\anue CC-0 $\pi$ for short). Some electron neutrino contamination is expected in the muon neutrino beam produced at J-PARC, hence it is imperative to try and measure this at ND280 to reduce systematic errors when finding the number of muon neutrinos converted to electron neutrinos at SK.
 
 The reference to ``production 7'' for the analysis refers to the build of the NEUT software used to generate MC data. The program is continually being improved with updated cross-sections and interaction models, so data is often re-analysed as part of a new production.
@@ -312,14 +318,19 @@ For PID and rejection of background electrons, a number of cuts are applied to t
 \subsection{Production 6 Analysis}
 
 \section{Future Work}
-\begin{itemize}
- \item Further software work. Help transition to GitLab and set up validation tests similar to comet
- \item Further nue work
- \item super-fgd test beam analysis
- \item super-fgd software development
- \item help with future oscillation analysis
-\end{itemize}
+After joining the T2K group at Imperial College London I have learnt much about the experiment and gained experience working with software and hardware. This plan will outline how I will progress with my PhD by building upon my initial work and taking advantage of potential research opportunities in the future. It may be the case that the plan will not turn out to be entirely accurate, as other projects may unexpectedly present themselves or some of the proposed projects may fall through or be delayed, but I have attempted to include everything I can think of that I can complete during my PhD.
 
+Following on from my work on the ND280 software, where I helped look at the different options for the software’s version control, its package naming and the implementation of ROOT6, I plan to help with the transition of the software from the CVS repositories to GitLab. This will include implementing validation tests that check any uploaded code to ensure the software still runs correctly. I’m in a good position to carry out this work as I have access to the COMET repositories on GitLab and I’m in contact with several COMET collaborators (COMET is another particle physics experiment with involvement from ICL) that can give advice on how they transitioned to GitLab.
+
+Once the code is transitioned it will also need to be maintained. It is still to be decided whether a CVS build will be kept frozen or developed alongside the GitLab repositories, in which case it could be my duty to transfer data added to the CVS version to GitLab. Any other issues that arise such as updating package names could also be assigned to me.
+
+Currently, the ND280 software is built using CMT, which creates the many packages that comprise the software. It has been decided that we will move on to using CMake instead of CMT, due to its flexibility and efficiency. It is still to be determined whether this transition will happen during the migration to GitLab or after. In either case I will be able to help implement the CMake build. I have some experience of the CMake language after studying the COMET implementation of their CMake build.
+
+I am becoming familiar with the new Super-FGD detector to be installed for the ND280 upgrade in ∼2 years. I assisted with the beam test of the prototype at CERN, which involved assembling the electronics of the detector and taking data with the detector during the test. This could lead on to me helping with the analysis of the data from the beam test. From there I may also become involved with the actual Super-FGD and help to get it ready for installation at ND280.
+
+I will also progress with my work on the production 7 analysis of electron neutrinos and anti-electron neutrinos at ND280 for the anti-neutrino beam data. I have read up on the production 6 analysis and am now in the process of reproducing their selection plots. My future work will move on to using the new production 7 Monte Carlo data in my analysis and extracting the electron neutrino and anti-electron neutrino composition of the beam and the detector systematic errors by performing fits on the data after selection cuts. I will also validate the results of the fits using Monte Carlo data.
+
+Another potential project for me is the chance to perform an oscillation analysis using the latest data from T2K. This could form quite a large portion of the work I will include in my thesis, so it is important I become more familiar with the techniques and knowledge required for such an analyses.
 
 \section{Summary}
 

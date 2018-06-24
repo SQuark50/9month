@@ -516,4 +516,17 @@
   note   = {\url{http://www.caen.it/csite/CaenProd.jsp?idmod=857&parent=38}},
 }
 
+@Article{Fukuda1998,
+  author    = {Y. Fukuda and T. Hayakawa and E. Ichihara and K. Inoue and K. Ishihara and H. Ishino and Y. Itow and T. Kajita and J. Kameda and S. Kasuga and K. Kobayashi and Y. Kobayashi and Y. Koshio and M. Miura and M. Nakahata and S. Nakayama and A. Okada and K. Okumura and N. Sakurai and M. Shiozawa and Y. Suzuki and Y. Takeuchi and Y. Totsuka and S. Yamada and M. Earl and A. Habig and E. Kearns and M. D. Messier and K. Scholberg and J. L. Stone and L. R. Sulak and C. W. Walter and M. Goldhaber and T. Barszczxak and D. Casper and W. Gajewski and P. G. Halverson and J. Hsu and W. R. Kropp and L. R. Price and F. Reines and M. Smy and H. W. Sobel and M. R. Vagins and K. S. Ganezer and W. E. Keig and R. W. Ellsworth and S. Tasaka and J. W. Flanagan and A. Kibayashi and J. G. Learned and S. Matsuno and V. J. Stenger and D. Takemori and T. Ishii and J. Kanzaki and T. Kobayashi and S. Mine and K. Nakamura and K. Nishikawa and Y. Oyama and A. Sakai and M. Sakuda and O. Sasaki and S. Echigo and M. Kohama and A. T. Suzuki and T. J. Haines and E. Blaufuss and B. K. Kim and R. Sanford and R. Svoboda and M. L. Chen and Z. Conner and J. A. Goodman and G. W. Sullivan and J. Hill and C. K. Jung and K. Martens and C. Mauger and C. McGrew and E. Sharkey and B. Viren and C. Yanagisawa and W. Doki and K. Miyano and H. Okazawa and C. Saji and M. Takahata and Y. Nagashima and M. Takita and T. Yamaguchi and M. Yoshida and S. B. Kim and M. Etoh and K. Fujita and A. Hasegawa and T. Hasegawa and S. Hatakeyama and T. Iwamoto and M. Koga and T. Maruyama and H. Ogawa and J. Shirai and A. Suzuki and F. Tsushima and M. Koshiba and M. Nemoto and K. Nishijima and T. Futagami and Y. Hayato and Y. Kanaya and K. Kaneyuki and Y. Watanabe and D. Kielczewska and R. A. Doyle and J. S. George and A. L. Stachyra and L. L. Wai and R. J. Wilkes and K. K. Young},
+  title     = {Evidence for Oscillation of Atmospheric Neutrinos},
+  journal   = {Physical Review Letters},
+  year      = {1998},
+  volume    = {81},
+  number    = {8},
+  pages     = {1562--1567},
+  month     = {aug},
+  doi       = {10.1103/physrevlett.81.1562},
+  publisher = {American Physical Society ({APS})},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

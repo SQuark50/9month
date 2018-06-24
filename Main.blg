@@ -12,45 +12,45 @@ Warning--empty year in CAEN
 Warning--empty author in CMake
 Warning--empty journal in CMake
 Warning--empty year in CMake
-You've used 31 entries,
+You've used 32 entries,
             2435 wiz_defined-function locations,
-            1238 strings with 43700 characters,
-and the built_in function-call counts, 10292 in all, are:
-= -- 567
-> -- 239
+            1244 strings with 44823 characters,
+and the built_in function-call counts, 10653 in all, are:
+= -- 591
+> -- 248
 < -- 2
-+ -- 109
-- -- 54
-* -- 727
-:= -- 1029
-add.period$ -- 31
-call.type$ -- 31
++ -- 113
+- -- 56
+* -- 751
+:= -- 1067
+add.period$ -- 32
+call.type$ -- 32
 change.case$ -- 10
 chr.to.int$ -- 0
-cite$ -- 39
-duplicate$ -- 1222
-empty$ -- 1179
-format.name$ -- 76
-if$ -- 2221
+cite$ -- 40
+duplicate$ -- 1261
+empty$ -- 1218
+format.name$ -- 79
+if$ -- 2299
 int.to.chr$ -- 0
-int.to.str$ -- 31
-missing$ -- 296
-newline$ -- 99
-num.names$ -- 30
-pop$ -- 478
+int.to.str$ -- 32
+missing$ -- 306
+newline$ -- 102
+num.names$ -- 31
+pop$ -- 493
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 242
+skip$ -- 250
 stack$ -- 0
-substring$ -- 485
-swap$ -- 706
+substring$ -- 510
+swap$ -- 728
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 8
-while$ -- 62
-width$ -- 33
-write$ -- 283
+while$ -- 65
+width$ -- 34
+write$ -- 292
 (There were 8 warnings)
