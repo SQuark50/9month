@@ -1211,7 +1211,7 @@ FUNCTION {article}
       journal
       "journal" bibinfo.check
       "journal" output.check
-      add.blank
+      %add.blank
       format.vol.num.pages output
       format.date "year" output.check
     }

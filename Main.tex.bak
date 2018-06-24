@@ -7,15 +7,18 @@
 
 \graphicspath{{Images/}}
 
+\newcommand{\nue}{$\nu_e$ }
+\newcommand{\anue}{$\bar\nu_e$ }
+
 \begin{document}
 
-\title{Upgrading T2K and an Overview of Electron Neutrino Detection in ND280\vspace{0mm}}
+\title{Upgrading ND280 and an Overview of \nue and \anue Detection using an Anti-Neutrino Beam\vspace{0mm}}
 \author{Wilf Shorrock\vspace{1mm}}
 \affiliation{Imperial College London\vspace{-0.5mm}}
 \date{\today}
 \begin{abstract}
 \linespread{0.97}
-\vspace{1mm}The T2K experiment is set to enter a new phase of data-taking in 2020, with increased statistics. To make full use of the higher statistics and reduce systematic errors, upgrades to the near detector, ND280, have been proposed. In this report, after introducing the T2K experiment and describing the sub-detectors comprising ND280, the updates to ND280's hardware and software will be outlined. The beam tests performed at CERN for the prototypes of the upgraded detectors will also be described, with particular focus on the Super-FGD prototype. A description of the detection of electron neutrinos at ND280 will also be included, as an introduction to the future work I will be carrying out for my PhD.
+\vspace{1mm} In 2020, the T2K experiment is set to enter a new phase of data-taking with increased statistics. To make full use of the higher statistics and reduce systematic errors, upgrades to the near detector, ND280, have been proposed. In this report, after introducing the T2K experiment and describing the sub-detectors currently comprising ND280 and the structure of its software, the future upgrades will be outlined. The beam test performed at CERN for the prototype of the new Super-FGD detector that will be installed in the upgraded ND280 will also be described, along with preliminary results. An introduction to the detection of electron neutrinos at ND280 will also be included, which will lead in to the future work I will be carrying out for my PhD.
 \end{abstract}
 
 \maketitle
@@ -27,21 +30,28 @@
 \vspace{-8mm}
 
 \section{Introduction}
-In their 1956 paper announcing the discovery of the neutrino, Reines and Cowan stated:
-\begin{quotation}
- ``Each new discovery of natural science broadens our knowledge and deepens our understanding of the    physical universe; but at times these advances raise new and even more fundamental questions than those     which they answer~\cite{1956Natur.178..446R}.''
-\end{quotation}
-At the time, they were referring to the observation of beta decay and how it led to the proposal of the neutrino, but it is rather fitting that we can also apply this statement to the neutrino itself. Since the observation of atmospheric neutrino oscillations at Super-Kamiokande (SK) in the 1990s, a whole new area of research has opened up, and results from further experiments observing reactor neutrinos~\cite{PhysRevLett.108.171803, PhysRevLett.108.191802, PhysRevLett.108.131801} have shown that neutrinos oscillate between three flavour states via three mass eigenstates. 
+%In their 1956 paper announcing the discovery of the neutrino, Reines and Cowan stated:
+%\begin{quotation}
+% ``Each new discovery of natural science broadens our knowledge and deepens our understanding of the    physical universe; but at times these advances raise new and even more fundamental questions than those     which they answer~\cite{1956Natur.178..446R}.''
+%\end{quotation}
+%At the time, they were referring to the observation of beta decay and how it led to the proposal of the neutrino, but it is rather fitting that we can also apply this statement to the neutrino itself. Since the observation of atmospheric neutrino oscillations at Super-Kamiokande (SK) in the 1990s, a whole new area of research has opened up, and results from further experiments observing reactor neutrinos~\cite{PhysRevLett.108.171803, PhysRevLett.108.191802, PhysRevLett.108.131801} have shown that neutrinos oscillate between three flavour states via three mass eigenstates.
 
-Neutrino oscillation has become one of the more promising avenues towards Beyond Standard Model physics. It has also been used to explain the lack of electron neutrinos originating from the Sun, a problem that had been present since the 1960's~\cite{PhysRevLett.89.011301}. Present-day experiments are still trying to make more precise measurements of the oscillation parameters, and are also trying to ascertain whether Charge Parity (CP) is conserved or not in these oscillations.
+The imprint neutrinos leave on our world is almost unnoticeable due to their vanishingly small cross-sections with respect to everyday baryonic matter. Yet, the ethereal nature of the neutrino belies its importance in the Universe. Neutrinos have pervaded our world almost since the very beginning and they have affected the evolution of entire galactic systems. This is why physicists are persevering in their attempts to measure the properties of the almost undetectable neutrino, a study in which they have made noticeable progress over the past few decades. 
 
-Tokai to Kamioka (T2K) is a long-baseline experiment that studies accelerator neutrinos, which are produced as the tertiary products of high energy protons striking a graphite target. T2K began operation in 2010 with the goal of making precision measurements of the oscillation parameters $\Delta m^2_{23}$ and $\sin^22\theta_{23}$ and a first measurement of the mixing angle $\theta_{13}$ (these parameters are explained in Sec.\ \ref{sec:osc})~\cite{PhysRevD.88.032002}. It has been successful in these goals, with its most recent results published in 2017~\cite{Abe:2017bay}. Over the next few years, the experiment will attempt to observe CP violation (CPV) in neutrino oscillations with at least a 3$\sigma$ significance (if the CPV is maximal) and ascertain whether the mixing angle $\theta_{23}$ is maximal, as current measurements suggest. This new phase of the experiment will be called T2K-II and will require several upgrades to the experiment's detectors.
+Since the neutrino was first discovered in 1956 by Reines and Cowan~\cite{1956Natur.178..446R}, the way in which it has been perceived by the scientific community has evolved significantly. After initially thinking all neutrinos were identical, we now know they come in three different flavours, each one conserving the number of a particular family of leptons in any interactions---albeit extremely rare interactions---they may take place in. The notion of neutrino mass is also a new concept, with the neutrino thought of as massless before it was discovered that neutrinos could oscillate in flavour by Super-Kamiokande (SK) in the 1990s~\cite{Fukuda1998}. This effect implies that neutrinos must have some mass, although to have been unmeasured thus far it must be extremely small.
 
-This paper will provide an overview of the proposed upgrade to the T2K experiment's off-axis near detector, ND280. The process of analysing the near detector's data to ascertain the electron neutrino contamination of the neutrino beam will also be presented, with the goal of introducing the future work of the author. Firstly, though, the theory behind neutrino oscillation will be given, leading on to a description of the T2K experiment and details on the current structure of ND280 and it's software.
+Neutrino oscillation has become one of the more promising avenues towards Beyond Standard Model physics. It also helps to shed light on previously unexplained measurements, for example the lack of electron neutrinos originating from the Sun, solved by realising the electron neutrinos can oscillate and change flavour~\cite{PhysRevLett.89.011301}. 
+
+There have been several experiments in the past measuring oscillation parameters using neutrinos produced in nuclear reactors, most notable Daya Bay, Double CHOOZ, Sudbury and RENO \cite{PhysRevLett.108.171803, PhysRevLett.108.131801, PhysRevLett.89.011301, PhysRevLett.108.191802}. There are still several reactor-based experiments today, as well as experiments using neutrino beams produced using particle accelerators. The goals of these experiments are to make more precise measurements of the oscillation parameters, and also try to ascertain whether charge parity (CP) is conserved or not in these oscillations.
+
+Tokai to Kamioka (T2K) is a long-baseline experiment that studies accelerator neutrinos, which are the tertiary products of high energy protons striking a graphite target. Since it began taking data in 2010, T2K has made precision measurements of the oscillation parameters $\Delta m^2_{23}$ and $\sin^22\theta_{23}$ and one of the first measurements of the mixing angle $\theta_{13}$ (these parameters are explained in Sec.\ \ref{sec:osc})~\cite{PhysRevD.88.032002}. The latest analysis results were published in 2017~\cite{Abe:2017bay}. Over the next few years, the experiment will attempt to observe CP violation (CPV) in neutrino oscillations with at least a 3$\sigma$ statistical significance (if the CPV is maximal) and ascertain whether the mixing angle $\theta_{23}$ is maximal, as current measurements suggest. This new phase of the experiment is to be called T2K-II and will require several upgrades to the experiment's detectors.
+
+This paper will provide an overview of the proposed upgrades to the T2K experiment's off-axis near detector, ND280, as well as a description of the beam test carried out with the prototype of one of the new sub-detectors, called the Super-FGD. The process of analysing the near detector's anti-neutrino data to ascertain the electron neutrino and electron anti-neutrino contamination of the beam will also be presented, with the goal of introducing the future work of the author. Firstly, though, the theory behind neutrino oscillation will be given, leading on to an overview of the T2K experiment and details on the current state of ND280 and it's software.
 
 \section{Neutrino Oscillation Model}
 \label{sec:osc}
-Disregarding sterile neutrinos, neutrino oscillations are well described by the Pontecorvo-Maki-Nakagawa-Sakata (PMNS) matrix. This PMNS matrix relates the three neutrino flavour eigenstates, $(\nu_e, \nu_\mu, \nu_\tau)$, to three mass eigenstates, $(\nu_1, \nu_2, \nu_3)$, through the equation
+For neutrino oscillations to exist, the neutrino flavour eigenstates, $(\nu_e, \nu_\mu, \nu_\tau)$, must be different to the neutrino mass eigenstates, $(\nu_1, \nu_2, \nu_3)$. In fact, it must be the case that the flavour eigenstates are coherent superpositions of the mass eigenstates. Hence, they can be equated using the equation
+%Neutrino oscillations are well described by the Pontecorvo-Maki-Nakagawa-Sakata (PMNS) matrix, although this does not include the possibility of sterile neutrinos, the details of which are beyond the scope of this report. The PMNS matrix relates the three neutrino flavour eigenstates, $(\nu_e, \nu_\mu, \nu_\tau)$, to three mass eigenstates, $(\nu_1, \nu_2, \nu_3)$, through the equation
 
 \begin{gather}
 \label{eq:pmns}
@@ -63,11 +73,11 @@ Disregarding sterile neutrinos, neutrino oscillations are well described by the 
  \end{pmatrix}
  ,
 \end{gather}
-where the matrix enclosed by square brackets is the PMNS matrix, $\matr{M}_\mathrm{PMNS}$. The matrix elements $U_{\alpha i}$ represent the mixing amplitudes of mass state $i$ contained within flavour state $\nu_\alpha$.
+where the matrix enclosed by square brackets is the Pontecorvo-Maki-Nakagawa-Sakata (PMNS) matrix, $\matr{M}_\mathrm{PMNS}$. The matrix elements $U_{\alpha i}$ represent the mixing amplitudes of mass state $i$ contained within flavour state $\nu_\alpha$.
 
-Eq.\ \eqref{eq:pmns} shows that the flavour eigenstates are coherent superpositions of the mass eigenstates. This means that, following the weak decay $W \rightarrow l_\alpha\nu_\alpha$, where $\nu_\alpha$ is a neutrino flavour eigenstate and $l_\alpha$ is the corresponding charged lepton state with flavour $\alpha$, the neutrino will propagate as a mixture of the mass eigenstates, which interfere quantum mechanically in interactions. This allows the neutrino to interact later in time as if it had a different flavour, where the probability of this flavour is dependent on the distance the neutrino travelled~\cite{Kayser:2005cd}. 
+Eq.\ \eqref{eq:pmns} encapulates all the physics of neutrino oscillations. It implies that, following the weak decay $W \rightarrow l_\alpha\nu_\alpha$, where $\nu_\alpha$ is a neutrino flavour eigenstate and $l_\alpha$ is the corresponding charged lepton state with flavour $\alpha$, the neutrino will propagate as a mixture of the mass eigenstates, which interfere quantum mechanically in interactions. This allows the neutrino to behave later in time as if it had a different flavour, where the probability of this flavour is dependent on the distance the neutrino travelled~\cite{Kayser:2005cd}. 
 
-Because the matrix is a unitary $3\times3$ matrix, $\matr{M}_\mathrm{PMNS}$ can be parametrised using three real angles, $(\theta_{12}, \theta_{13}, \theta_{23})$, and a real phase, $\delta_\mathrm{CP}$, to give
+$\matr{M}_\mathrm{PMNS}$ is a unitary matrix, so it can be parametrised using three real angles, $(\theta_{12}, \theta_{13}, \theta_{23})$, and a real phase, $\delta_\mathrm{CP}$, to give
 \begin{gather}
  \matr{M}_\mathrm{PMNS} = 
  \begin{bmatrix}
@@ -87,35 +97,37 @@ Because the matrix is a unitary $3\times3$ matrix, $\matr{M}_\mathrm{PMNS}$ can 
  \end{bmatrix}
  ,
 \end{gather}
-where $C_{ij} = \cos\theta_{ij}$ and $S_{ij} = \sin\theta_{ij}$. These parameters are useful in defining the probabilities of neutrino oscillations; hence it is these parameters that oscillation experiments aim to measure. A non-zero value of the $\delta_{CP}$ phase (given that $S_{13}\neq 0)$ would mean that neutrino oscillations are CP-violating. There may be two extra phase parameters required if neutrinos are Majorana particles---i.e.\ if the neutrino is its own antiparticle---but these have no effect on oscillation measurements~\cite{Kayser:2005cd}.
+where $C_{ij} = \cos\theta_{ij}$ and $S_{ij} = \sin\theta_{ij}$. These mixing angles and phases are what oscillation experiments aim to measure, as they encapulate the physics of the phenomenon. A non-zero value of the $\delta_{CP}$ phase (given that $S_{13}\neq 0)$ would mean that neutrino oscillations are CP-violating. There may be two extra phase parameters required if neutrinos are Majorana particles (Majorana particles are their own anti-particles) but these have no effect on oscillation measurements~\cite{Kayser:2005cd}.
 
-We will not go into the details of the derivation of neutrino oscillation probabilities here, but we will quote the notation from Kayser~\cite{Kayser:2011jn}, where he gives the probability of a (anti-)neutrino with initial flavour $\alpha$ and energy $E_\nu$ propagating a distance $L$ and being detected with flavour $\beta$ as:
+For a detatiled derivation of the neutrino oscillation probabilities, see Kayser~\cite{Kayser:2011jn}. Here, we will quote the end result only, which is the probability of a \mbox{(anti-)neutrino} with initial flavour $\alpha$ and energy $E_\nu$ propagating a distance $L$ and being detected with flavour $\beta$:
 \begin{align}
 \label{eq:p}
 P\Big(\barparen{\nu_\alpha}\rightarrow\barparen{\nu_\beta}\Big) = \delta_{\alpha\beta}&-4\sum^3_{i<j}\Re[U_{\alpha i}U_{\beta i}^*U_{\alpha j}^*U_{\beta j}]\sin^2\bigg(\Delta m^2_{ij}\frac{L}{4E_\nu}\bigg) \notag \\
 & \mp 2\sum^3_{i<j}\Im[U_{\alpha i}U_{\beta i}^*U_{\alpha j}^*U_{\beta j}]\sin\bigg(\Delta m^2_{ij}\frac{L}{2E_\nu}\bigg),
 \end{align}
-where $\Delta m^2_{ij} = m^2_i - m^2_j$ is the difference between the squared masses of mass eigenstates $i$ and $j$. 
+where $\Delta m^2_{ij} = m^2_i - m^2_j$ is the difference between the squared masses of mass eigenstates $i$ and $j$. In fact, $\Delta m^2_{ij}$ is another set of parameters that oscillation experiments attempt to measure, in lieu of the absolute masses of each neutrino flavour.
 
-Eq.~\ref{eq:p} can only be applied to neutrinos travelling through a vacuum. For neutrino propagation through matter, see the report by Kayser~\cite{Kayser:2005cd}.
+Eq.~(\ref{eq:p}) can only be applied to neutrinos travelling through a vacuum. For neutrino propagation through matter, see the report by Kayser~\cite{Kayser:2005cd}.
 
 \section{T2K}
-T2K uses a neutrino beam that is generated at the Japan Proton Accelerator Research Complex (J-PARC) in Tokai. The beam crosses the breadth of the main Japanese island, Honshu, from Tokai on the east coast to Kamioka on the west coast, travelling in a straight line through the Earth's crust. In Tokai, the beam passes through two near detectors---INGRID and ND280---that are 280~m from the beam's origin. At Kamioka, the beam reaches the far detector, SK, 295~km from the origin. An illustration of the experiment is shown in Fig.\ \ref{fig:t2k}.
+The T2K experiment spans 295~km from the east coast of the main Japanese island, Honshu, to the west coast. The size of the experiment is one of it's advantages, as it enables the analysis of neutrinos that propagate long distances, making it more likely to observe oscillation and allowing sampling of areas of the parameter space that shorter baseline experiments can't reach. The neutrino beam of T2K is generated at the Japan Proton Accelerator Research Complex (J-PARC) in Tokai. The beam is directed towards the other end of the experiment in Kamioka, travelling in a straight line through the Earth's crust. In Tokai, the beam passes through two near detectors---INGRID and ND280---that are 280~m from the beam's origin. At Kamioka, the beam reaches the far detector, SK, 295~km from the origin. An illustration of the experiment is shown in Fig.\ \ref{fig:t2k}.
 \begin{figure}
  \includegraphics[scale=0.33]{T2K_detail}
- \caption{A diagram showing the journey of the neutrino beam produced in the T2K experiment, along with illustrative photos of each major stage of the beam. The beam originates at J-PARC, then passes through the two near detectors, INGRID and ND280, which are on- and off-axis respectively. After travelling 295~km the beam then passes through the Super-Kamiokande water cherenkov detector, which is also off-axis~\cite{Jamieson:2015rza}.}
+ \caption{A diagram showing the path of the neutrino beam produced in the T2K experiment, along with illustrative photos/models of each major stage of the beam~\cite{Jamieson:2015rza}.}
  \label{fig:t2k}
 \end{figure}
 
 The INGRID detector lies on the axis of the neutrino beam, but ND280 and SK are 2.5\degree\ off-axis, which sets the peak of the neutrino flux at 600~MeV, the energy at which muon neutrino disappearance is most likely. Fig.\ \ref{fig:axis} 
 \begin{figure}
  \includegraphics[scale=0.5]{axis.png}
- \caption{A probability plot (top) of the probability of muon neutrino survival as a function of energy, and a plot of the neutrino beam energy flux (bottom) for several off-axis angles.}
+ \caption{A plot (top) of the probability of muon neutrino survival as a function of energy, and a plot of the neutrino beam energy flux (bottom) for several off-axis angles.}
  \label{fig:axis}
 \end{figure}
 shows the flux of the neutrino beam as a function of neutrino energy, at several different off-axis angles. Also shown is the probability of a muon neutrino not oscillating as a function of neutrino energy. It is clear that the peak flux for a 2.5\degree\ off-axis angle occurs at the same energy as one of the minimum points in the probability plot.
 
-In this report, we will only give details on the ND280 detector and its proposed upgrades. Information on the other detectors and the beamline is given elsewhere~\cite{ABE2011106}.
+The content of the neutrino beam used in T2K can be switched between muon neutrinos (\nue) and anti-muon neutrinos (\anue). The neutrinos are produced from the decay of muons, which are focused by electromagnetic horns. Reversing the current passed the horns causes particles of opposite charge to be focused, hence one can focus muons or anti-muons depending on the current's direction. The mode in which muons are focussed to give a \nue beam is the forward horn current (FHC) mode, and to focus anti-muons and create a \anue beam the reverse horn current (RHC) mode is needed.
+
+In the next section, we will give details on the ND280 detector and its proposed upgrades. Information on the other T2K detectors and the beamline is given elsewhere~\cite{ABE2011106}.
 
 \section{ND280: Current State}
 ND280, so called because it is a Near Detector 280~m away from the neutrino beam's origin, measures the flux, the energy spectrum, and the flavour content of the neutrino beam. This allows comparison with measurements at the far detector, leading to calculations of neutrino oscillation parameters by observing how the flavour content of the beam has changed as a function of energy. 
@@ -178,58 +190,77 @@ The proposed upgraded ND280 is shown in Fig.\ \ref{fig:up}.
 The downstream end of the detector will remain unchanged, with three TPCs separated by two FGDs. At the upstream end, however, the central P\O D module (not the ECal endcaps) will be replaced by a scintillator detector sandwiched between two horizontal TPCs. The scintillator detector will act as a target material, with the TPCs distributed around it giving nearly 4$\pi$ solid angle coverage. This  will address an issue with the old ND280 design: the tracking efficiency is biased towards low scattering angles. This is because, after a neutrino has interacted in an FGD, the resulting lepton is only seen in the downstream TPC if the scattering angle is less than $\sim$40\degree\ with respect to the beam direction. The TPC gives important information on the interaction, so most interaction samples exclude leptons with high scattering angles. This creates problems when comparing data with SK, which has a flat efficiency with respect to scattering angle.
 
 The new scintillator detector will have a first-of-its-kind ``Super-FGD'' design that incorporates scintillator cubes rather than bars, which can be read out from three orthogonal directions by wavelength shifting (WLS) fibres. The cubes' side length will be between 1--2~cm, with the larger lengths sacrificing granularity for a smaller number of cubes and readouts. The size of the cubes is comparable to the height and width of the scintillator bars used in the current design, but the bars only give readouts in two directions. The extra information provided by the cubes helps to reconstruct the paths of multiple particles. Fig.~\ref{fig:sfgd}
+%\afterpage{
  \begin{figure}
   \includegraphics[scale=0.75]{SFGD.png}
   \caption{A rendering of the Super-FGD to be used in the upgraded ND280. The detector comprises many small plastic scintillator cubes that are read off in three orthogonal directions by wavelength shifting fibres. There are fewer cubes depicted here than there will be in the actual detector, to make the diagram clearer~\cite{Blondel:2299599}.}
   \label{fig:sfgd}
  \end{figure}
+ %\clearpage
+%}
 shows an illustration of the Super-FGD design.
 
-Not shown in the diagram of the ND280 upgrade (Fig.\ \ref{fig:up}) are the new Time-Of-Flight (TOF) detectors that are to be installed. These will be placed around the volume containing the scintillator detector and the horizontal TPCs. The TOF detectors will help identify whether a particle originated from inside or outside the detector, and will also aid with particle identification. The design of the TOF detectors is as yet undecided. There are two possible candidates, one based on wavelength shifting fibres and the other based on plastic scintillator bars. A prototype of the latter design is being constructed in 2018 and will be used in conjunction with the test-beam that will be run at the end of 2018. Prototypes of the horizontal TPC and the Super-FGD will also be used in the test-beam, the latter of which will be explained in more detail in the next section.
+Not shown in the diagram of the ND280 upgrade (Fig.\ \ref{fig:up}) are the new time-of-flight (TOF) detectors that are to be installed. These will be placed around the volume containing the scintillator detector and the horizontal TPCs. The TOF detectors will help identify whether a particle originated from inside or outside the detector, and will also aid with particle identification. The design of the TOF detectors is as yet undecided. There are two possible candidates, one based on wavelength shifting fibres and the other based on plastic scintillator bars. A prototype of the latter design is being constructed in 2018 and will be used in conjunction with the test-beam that will be run at the end of 2018. Prototypes of the horizontal TPC and the Super-FGD will also be used in the test-beam, the latter of which will be explained in more detail in the next section.
 
 \section{Super-FGD Beam Test}
-The beam test for the Super-FGD prototype is scheduled for June 27th -- July 11th 2018, taking place at CERN. At the time of submission for this report the beam test will be partially completed, making it difficult to report results. I will be at CERN for the beam test and the weeks preceding it, so I will report on the set-up of the beam test, the prototype's design and the initial results, as well as describing my specific roles in the preparation and testing.
+The beam test for the Super-FGD prototype is scheduled for June 27th -- July 11th 2018, taking place at CERN.
+
+The main goals of the beam test are:
+\begin{itemize}
+ \item Illuminate the detector with $\sim$1 GeV muons to collect data on the detector's properties like time resolution, position resolution, pulse height uniformity, alignment and more. This will also give an opportunity to calibrate the detector.
+ \item Study the PID between electrons and gamma rays in the device and the two-track separation of electron-positron pairs by observing electron-pair production from gamma radiation.
+ \item Measure energy loss of particles and study the effects of particles stopping in the detector.
+ \item Collect samples of low energy protons from elastic scattering events with pions ($\pi^+ p \rightarrow \pi^+ p$).
+ \item Observe high energy pion interactions that produce many particles to test multi-track separation.
+\end{itemize}
+
+At the time of submission for this report the beam test will be partially completed, making it difficult to relay results. I will be at CERN for the beam test and the weeks preceding it, so I will report on the set-up of the beam test, the prototype's design and the initial results, as well as describing my specific roles in the preparation and testing.
 
 \subsection{The Super-FGD Prototype}
-The prototype scintillator detector measures $24\times48\times8$ cm$^3$ and comprises 9216 extruded polystyrene mixed with p-terphenyl plastic scintillator cubes, each 1~cm long. There are a total of 1728 WLS fibres threaded through the cubes. On one end of each fibre is a connector, which attaches to another connector in which is housed a Multiple Photon Pixel Counter (MPPC) that sends a signal down a length of cable to a circuit board where the signal is processed //MORE DETAIL. Two photographs of the prototype are shown in Fig.\ \ref{fig:proto},
+The prototype scintillator detector measures $24\times48\times8$ cm$^3$ and comprises 9216 extruded polystyrene mixed with p-terphenyl plastic scintillator cubes, each 1~cm long. There are a total of 1728 WLS fibres threaded through the cubes. On one end of each fibre is a connector, which attaches to another connector in which is housed a multiple photon pixel counter (MPPC) that sends a signal down a length of cable to the data acquisition (DAQ) system. Two photographs of the prototype are shown in Fig.\ \ref{fig:proto}.
  \begin{figure}
   \centering
   \begin{subfigure}{.5\textwidth}
    \centering
    \includegraphics[width=.7\linewidth]{proto}
    \caption{•}
-   \label{protoa}
+   \label{fig:protoa}
   \end{subfigure}%
   \begin{subfigure}{.5\textwidth}
    \centering
    \includegraphics[width=.8\linewidth]{side}
    \caption{•}
-   \label{protob}
+   \label{fig:protob}
   \end{subfigure}
   \caption{Photographs of the Super-FGD prototype after being delivered to CERN. These were taken before the electronics were fitted for the beam test. (a) shows the whole detector, along with the frame it is housed in. (b) is a close-up of one of the detector's sides, giving a clear view of the scintillator cubes and the WLS fibres. The black connectors are where the readout electronics will be attached.}
   \label{fig:proto}
  \end{figure}
-one shows the construct as a whole, housed in it's frame (Fig.\ \ref{protoa}); and the other displays a close-up of the side of the detector (Fig.\ \ref{protob}).
-
-\subsection{Readout Electronics}
+Fig.\ \ref{fig:protoa} shows the construct as a whole, housed in it's frame. Fig.\ \ref{fig:protob} displays a close-up of the side of the detector, giving a detailed view of the connectors at the ends of the WLS fibres, which will connect the detector to the DAQ system.
 
 \subsection{The Beam Test Configuration} //TENSE??
-%\begin{figure}
-% \includegraphics[scale=0.5]{layout}
-% \caption{Layout}
-% \label{fig:layout}
-%\end{figure}
-The beam test is taking place in the East Area of the Proton Synchotron at CERN. Test-beam T9 is being used to fire $p, \ e^+, \ e^-, \ \pi^+, \ \pi^-, \ \mu^+$ and $\mu^-$ particles at the Super-FGD prototype with momenta ranging between 0.5--3~GeV (this is the expected momentum range for particles to be produced in the ND280 detector)~\cite{Durieu2001}. The prototype will be placed inside the MNP17 magnet, which is present for Particle Identification 
+The beam test is taking place in the East Area of the Proton Synchotron at CERN. Test-beam T9 is being used to fire $p, \ e^+, \ e^-, \ \pi^+, \ \pi^-, \ \mu^+$ and $\mu^-$ particles at the Super-FGD prototype with momenta ranging between 0.5--3~GeV (this is the expected momentum range for particles to be produced in the ND280 detector)~\cite{Durieu2001}. 
 
+The prototype will be placed inside the MNP17 magnet, which is present for particle identification (PID)~\cite{Brooks2015}. The magnetic flux density will be set to 0.2~T, the same as the UA1 magnet of ND280. The readout electronics need to be placed outside the magnet field, hence long cables ($\sim$1.5~m long) are needed to connect the detector to the electronics. Fig.\ \ref{fig:plat}
+\begin{figure}
+ \includegraphics[scale=0.8]{platform}
+ \caption{A plan of the orientation of the prototype detector and its DAQ electronics with respect to the MNP17 magnet. The prototype will be on a mechanical platform that can rotate about the horizontal axis parallel to the beam and the vertical axis.}
+ \label{fig:plat}
+\end{figure}
+shows how the detector is oriented with the magnet, as well as the readout electronics, which are kept in metal boxes called ``minicrates''. The prototype is kept on a rotating platform so the detector's response to particles incoming at several angles can be tested.
+
+The DAQ system in the minicrates is the same one that will be used for the Baby MIND detector~\cite{Antonova2017}. This will be used concurrently with another DAQ system using a WaveCatcher digitiser~\cite{CAEN}. This system will be connected to several hodoscopes and Cherenkov detectors, which will act as a trigger system and give PID. Baby MIND has it's own trigger system, so it's results will be compared with those of the WaveCatcher system, as a means of corroboration.
+
+The layout of the detectors used in the trigger system is shown in Fig.\ \ref{fig:daq}.
 \begin{figure}
  \includegraphics[scale=0.55]{daq}
- \caption{A schematic of the layout and DAQ for the beam test. The yellow boxes labelled S are beam scintillator counters and the ones labelled Ch are Cherenkov detectors. These are used in the trigger system for the Super-FGD prototype, labelled sFGD in the diagram. PID can be performed with the detectors in the triggering system by using time-of-flight and Cherenkov signals. There are two independent DAQ systems, one based on WaveCatcher, and the other BabyMIND, which is self-triggering. Also shown are the number of channels (ch) from each trigger component.}
+ \caption{A schematic of the layout and DAQ for the beam test. The yellow boxes labelled S are beam scintillator counters and the ones labelled Ch are Cherenkov detectors. These are used in the trigger system for the Super-FGD prototype, labelled sFGD in the diagram. PID can be performed with the detectors in the triggering system by using time-of-flight and Cherenkov signals. There are two independent DAQ systems, one based on WaveCatcher, and the other Baby MIND, which is self-triggering. Also shown are the number of channels (ch) from each trigger component.}
  \label{fig:daq}
 \end{figure}
-
-\subsection{Assembling the Prototype}
+There are four hodoscopes in total, along with two Cherenkov detectors. By monitoring these detectors the trigger can be activated when a signal is produced in each one within a certain time window. Time of flight information can also be used to distinguish protons from other, lighter, particles. The Cherenkov detectors help with PID by distinguishing electrons from muons and pions. In the 0.5--3 GeV momentum range only electrons produce Cherenkov light in these detectors, making it easy to identify them.
+%\subsection{Assembling the Prototype}
 
 \subsection{Initial Beam Test Results}
+//AWAITING RESULTS
 
 \section{Software Changes}
 There have been few changes to ND280's software structure since it was conceived 14 years ago, despite many new and upgraded software tools being introduced by developers. The proposal of an upgrade to ND280's hardware has sparked discussions of updates to the software, none of which will include a major overhaul of the framework, but will help streamline the code for the modern day developer. In this section, we will outline the changes that have been proposed following discussions from the ND280 software group, some of which are still subject to certain conditions and may change later on.
@@ -241,7 +272,7 @@ Given these advantages and many others, the ND280 software will be moved to a Gi
 
 There is also the question of which Git service to use. The choice is between GitHub, a popular VCS run on a //**commercial** server, which would require a paid subscription to keep the code stored there to be kept private. Alternatively, there is GitLab, a service specifically made with scientific experiments in mind, which requires a private server to be hosted. With this VCS the software will not be viewable by anyone, and specific levels of access can be given to individuals. There is also the benefit of built in continuous integration, a feature that makes the process of editing and committing code that much faster.
 
-There has been no official decision as to which Git service to use, although it seems that people are swaying towards the GitLab option, for its extra features and--as was CVS back in the day--structure tailor-made for scientists. This would require a private server, but the University of Warsaw, Poland, has offered to do this.
+Following discussions in the software group, it has been decided that the ND280 software will be moved to GitLab rather than GitHub. GitLab offers several features that will be useful for scientific code development. There is also the recent news that GitHub has been purchased by Microsoft, so the future of GitHub and how it will operate is somewhat uncertain, making GitLab a safer and more reliable option. The University of Warsaw, Poland, has offered to host the private servers required to store the software on GitLab.
 
 \subsection{Package Names}
 
@@ -265,15 +296,30 @@ The software of ND280 currently uses ROOT5, but the latest version is ROOT6. It 
 
 To gauge how big of a job this would be, I performed a survey on the software to count the number of times mix-in classes are used (they can be identified by the ``TM'' prefix and ``State'' suffix in their name). The survey also identified the software packages and files each reference to the mix-in class was made in, but here I will only quote the final count of mix-in classes: five classes inherited a mix-in class and the mix-in classes are directly used in the code 50 times. This is relatively infrequent so the transition to ROOT6 shouldn't be significantly delayed by the reimplementation of these classes.
 
+\section{Electron Neutrino Detection at ND280}
+I am currently assisting with the production 7 analysis of anti-neutrino beam data from ND280 for \nue and \anue charged current interactions producing no pions ($\nu_e$/\anue CC-0 $\pi$ for short). Some electron neutrino contamination is expected in the muon neutrino beam produced at J-PARC, hence it is imperative to try and measure this at ND280 to reduce systematic errors when finding the number of muon neutrinos converted to electron neutrinos at SK.
+
+The reference to ``production 7'' for the analysis refers to the build of the NEUT software used to generate MC data. The program is continually being improved with updated cross-sections and interaction models, so data is often re-analysed as part of a new production.
+
+As I have only been on this project a few weeks, there are no results to show yet. Therefore, in this section I will introduce the reader to the cuts performed on ND280 anti-neutrino data for the production 6 analysis to isolate the \nue and \anue interactions. I will then go on to outline the rest of the analysis in the penultimate section on my future work for my PhD.
+
+\subsection{Selection Cuts}
+The selection of \nue and \anue interactions in ND280 is no easy task. There are several difficulties, such as the relatively small number of electrons produced in the interactions. Also, extremely accurate PID is needed to distinguish the electrons from other particles in the detector such as pions and protons. Not only this, there will be a large number of background electrons present from interaction of other particles, such as pions, which need to be rejected in the analysis. 
+
+For PID and rejection of background electrons, a number of cuts are applied to the data. For the production 6 analysis, there were 12 cuts in total. I will give a concise list of them now.
 
 
-\section{Electron Neutrino Detection}
-
-\subsection{Cuts}
-
-\subsection{Analysis}
+\subsection{Production 6 Analysis}
 
 \section{Future Work}
+\begin{itemize}
+ \item Further software work. Help transition to GitLab and set up validation tests similar to comet
+ \item Further nue work
+ \item super-fgd test beam analysis
+ \item super-fgd software development
+ \item help with future oscillation analysis
+\end{itemize}
+
 
 \section{Summary}
 
