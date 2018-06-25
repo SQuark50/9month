@@ -145,7 +145,7 @@ The detector itself can be broken down into four main systems: a $\pi^0$ detecto
  \label{fig:ND}
 \end{figure}
 
-The sub-detectors of ND280 will now be described in more detail, apart from the SMRD, which can be read about in the literature~\cite{Aoki2013}.
+The sub-detectors of ND280 will now be described in more detail, apart from the SMRD, which can be read about in the literature~\cite{Aoki2013}. An introduction to the software used by ND280 will also be given.
 
 \subsection{$\pi^0$ Detector (P\O D)}
 T2K's far detector, SK, has difficulty discerning between electrons and pions. To reduce this systematic error, the P\O D sub-detector of ND280 is used to measure the cross-sections of neutrino interactions, specifically with water, where a neutral pion ($\pi^0$) appears in the final state. Using this cross-section data, the number of $\pi^0$s produced in SK can then be calculated and taken into account.
@@ -157,21 +157,21 @@ The central target is preceded and followed by electromagnetic calorimeters comp
 Cross-section values with respect to the water target can be deduced by taking measurements when the target bags in the central section are filled with water and comparing them to when they filled with air~\cite{ABE2011106, Assylbekov:2011sh}.
 
 \subsection{Fine Grain Detectors (FGDs)}
-The FGDs provide mass with which incoming neutrinos can interact and precision tracking to map out the interaction vertices. They consist of bars of plastic scintillator oriented perpendicular to the neutrino beam and stacked to form layers. Two layers are attached one after the other to form a module, with the bars of one layer being arranged vertically (along the $y$-axis) and the other layer horizontally (along the $x$-axis). This allows precise determination of particle position in two dimensions.
+The FGDs provide mass with which incoming neutrinos can interact and precision tracking to map out the interaction vertices. They consist of bars of plastic scintillator oriented perpendicular to the neutrino beam and stacked to form sheets. Two sheets are placed one after the other to form a module, with the bars of one layer being arranged vertically (along the $y$-axis) and the other layer horizontally (along the $x$-axis). The bars are read-off by WLS fibres, so the position of a charged particle incident on a module can be determined in two dimensions. Placing several modules in sequence then gives the trajectory of a particle through the detector
 
 There are two FGDs in ND280. The downstream FGD also contains layers of water in between the scintillator layers. Comparing interaction rates between the two FGDs allows calculation of the cross-sections of neutrino interactions with carbon and water~\cite{ABE2011106, Amaudruz:2012agx}.
 
 \subsection{Time Projection Chambers (TPCs)}
 There are three TPCs in ND280, sandwiching the two FGDs. The bulk of each TPC consists of an argon-based gas. When charged particles pass through this gas, they ionise the gas molecules. The ionisation electrons drift away from a cathode and towards a readout plane. The location and arrival time of the electrons on this plane can be used to construct a 3D image of the particle's trajectory.
 
-TPCs are ideal for identifying the number and trajectory of charged particles in the detector. This allows selection of low-contamination interaction samples, as well as momentum measurements from curved tracks caused by the magnetic field present in the detector. Combining the particle momenta along with the ionisation of the particle tracks, one can identify the type of charged particle that made each track. Hence, when combined with the FGD data, the TPCs can be used to help estimate the neutrino flux as a function of energy, and to determine the contamination in the neutrino beam by electron neutrinos~\cite{ABE2011106, Abgrall:2010hi}.
+TPCs are ideal for identifying the number and trajectory of charged particles in the detector, although their relatively small mass makes it unlikley for a neutrino to interact with them, hence the need for FGDs. The information provided by TPCs allows selection of low-contamination interaction samples, as well as momentum measurements from curved tracks caused by the magnetic field present in the detector. Combining a particle's momentum along with the ionisation of the particle's track, one can identify the type of particle that made the track. Hence, when combined with the FGD data, the TPCs can be used to help estimate the neutrino flux as a function of energy and to determine the contamination in the muon neutrino beam by electron neutrinos~\cite{ABE2011106, Abgrall:2010hi}.
 
 \subsection{Electronic Calorimeter (ECal)}
-As well as the ECals either end of the P\O D, there are also ECals surrounding the entire detector. A barrel ECal surrounds the tracker, another ECal is situated downstream of the tracker, and a third encircles the P\O D. %These ECals are arranged to try and minimise the number of particles that leave the detector without passing through an ECal. 
+As well as the ECals either end of the P\O D, there are also ECals surrounding the entire detector. A ``barrel'' ECal surrounds the tracker around the $z$-axis, another ECal is situated downstream of the tracker, and a third encircles the P\O D. %These ECals are arranged to try and minimise the number of particles that leave the detector without passing through an ECal. 
 
 The main uses of the ECals are to complement the inner detectors by measuring the energies of photons missed by the inner detectors, reject particles from interactions outside the detector, and help with particle identification.
 
-Alternating layers of scintillator and lead absorber make up each ECal. The scintillator layers consist of several bars of plastic scintillator. These bars are oriented perpendicular to the scintillator bars of the adjacent layers for $x$--$y$ tracking~\cite{ABE2011106, Allan:2013ofa}.
+Alternating layers of scintillator and lead absorber make up each ECal. The scintillator layers consist of several bars of plastic scintillator. These bars are oriented perpendicular to the scintillator bars of the adjacent layers for $x$--$y$ tracking, similar to the FGDs~\cite{ABE2011106, Allan:2013ofa}.
 
 \subsection{ND280 Software}
 The ND280 software is used for offline analysis of data collected by ND280, as well as Monte Carlo (MC) data generation and analysis. The basic framework of the code was built in 2004, with the underlying structure and data storage relying on ROOT~\cite{Brun1997}, simulation libraries from Geant4~\cite{Agostinelli2003}, a package management system provided by CMT (Configuration Management Tool) \cite{Arnault:2000vu} and the version control system used to store each version of the code is CVS (Concurrent Version Systems) \cite{Berliner2001}.
@@ -189,8 +189,9 @@ The package oaEvent is important as it defines the format of the data passed thr
 The exact same processes are applied to MC data, except that the data does not start in MIDAS format. The MC data is produced by passing information from the neutrino flux packages to the neutrino interaction generators NEUT~\cite{Hayato:2009zz} and GENIE~\cite{Andreopoulos2010}. These generators produce realistic distributions of child particles from neutrino interactions. The simulation is then taken over by nd280mc, which uses Geant4 to propagate the child particles and simulate the energy deposits left in the detector. elecSim then converts these energy deposits to simulated electrical readouts, as would be seen in the real detector and recorded in MIDAS format, except here it is written as oaEvent data.
  
 \section{Hardware Upgrades}
-Resulting from T2K's success in measuring oscillation parameters with improved precision, the experiment is set for a series of upgrades to further increase the measurement precision. In tandem with these improvements, ND280 must also be revamped to reduce statistical and systematic uncertainties in the neutrino appearance predictions. Here, we will go through the proposed upgrades, which are planned for construction over 2019--2020 to be installed in Japan in 2020~\cite{Blondel:2299599}.
+Resulting from T2K's success in measuring oscillation parameters with improved precision, the experiment is set for a series of upgrades to further increase the measurement precision. In tandem with these improvements, ND280 must also be revamped to reduce statistical and systematic uncertainties in the neutrino appearance predictions. Here, we will go through the proposed upgrades, which are planned for construction over 2019--2020 to be installed in Japan by 2020~\cite{Blondel:2299599}.
 
+\subsection{Scintillator Detector and Horizontal TPCs}
 The proposed upgraded ND280 is shown in Fig.\ \ref{fig:up}.
 \begin{figure}
  \includegraphics[scale=0.5]{upgrade2.png}
@@ -210,9 +211,11 @@ The new scintillator detector will have a first-of-its-kind ``Super-FGD'' design
 %}
 shows an illustration of the Super-FGD design.
 
+\subsection{Time of Flight Detectors}
 Not shown in the diagram of the ND280 upgrade (Fig.\ \ref{fig:up}) are the new time-of-flight (TOF) detectors that are to be installed. These will be placed around the volume containing the scintillator detector and the horizontal TPCs. The TOF detectors will help identify whether a particle originated from inside or outside the detector, and will also aid with particle identification. The design of the TOF detectors is as yet undecided. There are two possible candidates, one based on wavelength shifting fibres and the other based on plastic scintillator bars. A prototype of the latter design is being constructed in 2018 and will be used in conjunction with the test-beam that will be run at the end of 2018. Prototypes of the horizontal TPC and the Super-FGD will also be used in the test-beam, the latter of which will be explained in more detail in the next section.
 
 \section{Super-FGD Beam Test}
+\label{sec:fgd}
 The beam test for the Super-FGD prototype is scheduled for June 27th -- July 11th 2018, taking place at CERN.
 
 The main goals of the beam test are:
@@ -252,18 +255,18 @@ The beam test is taking place in the East Area of the Proton Synchotron at CERN.
 
 The prototype will be placed inside the MNP17 magnet, which is present for PID~\cite{Brooks2015}. The magnetic flux density will be set to 0.2~T, the same as the UA1 magnet of ND280. The readout electronics need to be placed outside the magnet field, hence long cables ($\sim$1.5~m long) are needed to connect the detector to the electronics. Fig.\ \ref{fig:plat}
 \begin{figure}
- \includegraphics[scale=0.8]{platform}
- \caption{A plan of the orientation of the prototype detector and its DAQ electronics with respect to the MNP17 magnet. Not shown is the upper platform of the magnet, which sits 290~mm above the lower platform. In order to access the prototype during the beam test, it will be placed on a mechanical platform that can slide out of the magnet. The platform will also rotate about the horizontal axis parallel to the beam and the vertical axis to allow different orientations of the prototype with respect to the beam.}
+ \includegraphics[scale=0.4]{platform2}
+ \caption{A plan of the orientation of the prototype detector and its DAQ electronics with respect to the MNP17 magnet. Not shown is the upper platform of the magnet, which sits 290~mm above the lower platform. In order to access the prototype during the beam test, it will be placed on a mechanical platform that can slide out of the magnet. The platform will also rotate about the horizontal axis parallel to the beam and the vertical axis to allow different orientations of the prototype with respect to the beam~\cite{Cadoux2018}.}
  \label{fig:plat}
 \end{figure}
-shows how the detector is oriented with the magnet, as well as the readout electronics, which are kept in metal boxes called ``minicrates''. The prototype is kept on a rotating platform so the detector's response to particles incoming at several angles can be tested.
+shows how the detector is oriented with respect to the magnet, as well as the readout electronics, which are kept in metal boxes called ``minicrates''. The prototype is kept on a rotating platform so the detector's response to particles incoming at several angles can be tested.
 
 The DAQ system in the minicrates is the same one that will be used for the Baby MIND detector~\cite{Antonova2017}. This will be used concurrently with another DAQ system using a WaveCatcher digitiser~\cite{CAEN}. This system will be connected to several hodoscopes and Cherenkov detectors, which will act as a trigger system and give PID. Baby MIND has it's own trigger system, so it's results will be compared with those of the WaveCatcher system, as a means of corroboration.
 
 The layout of the detectors used in the trigger system is shown in Fig.\ \ref{fig:daq}.
 \begin{figure}
  \includegraphics[scale=0.55]{daq}
- \caption{A schematic of the layout and DAQ for the beam test. The yellow boxes labelled S are beam scintillator counters and the ones labelled Ch are Cherenkov detectors. These are used in the trigger system for the Super-FGD prototype, labelled sFGD in the diagram. PID can be performed with the detectors in the triggering system by using time-of-flight and Cherenkov signals. There are two independent DAQ systems, one based on WaveCatcher, and the other Baby MIND, which is self-triggering. Also shown are the number of channels (ch) from each trigger component.}
+ \caption{A schematic of the layout and DAQ for the beam test. The yellow boxes labelled S are beam scintillator counters and the ones labelled Ch are Cherenkov detectors. These are used in the trigger system for the Super-FGD prototype, labelled sFGD in the diagram. PID can be performed with the detectors in the triggering system by using time-of-flight and Cherenkov signals. There are two independent DAQ systems, one based on the WaveCatcher and the other Baby MIND, which is self-triggering. Also shown are the number of channels (ch) from each trigger component~\cite{Korzenev2018}.}
  \label{fig:daq}
 \end{figure}
 There are four hodoscopes in total, along with two Cherenkov detectors. By monitoring these detectors the trigger can be activated when a signal is produced in each one within a certain time window. Time of flight information can also be used to distinguish protons from other, lighter, particles. The Cherenkov detectors help with PID by distinguishing electrons from muons and pions. In the 0.5--3 GeV momentum range only electrons produce Cherenkov light in these detectors, making it easy to identify them.
@@ -322,21 +325,21 @@ For PID and rejection of background electrons, a number of cuts are applied to t
 \subsection{Production 6 Analysis}
 
 \section{Future Work}
-After joining the T2K group at Imperial College London I have learnt much about the experiment and gained experience working with software and hardware. This plan will outline how I will progress with my PhD by building upon my initial work and taking advantage of potential research opportunities in the future. It may be the case that the plan will not turn out to be entirely accurate, as other projects may unexpectedly present themselves or some of the proposed projects may fall through or be delayed, but I have attempted to include everything I can think of that I can complete during my PhD.
+I will now outline how I will progress with my PhD by building upon my initial work and taking advantage of potential research opportunities in the future. It may be the case that the plan will not turn out to be entirely accurate, as other projects may unexpectedly present themselves or some of the proposed projects may fall through or be delayed, but I have attempted to include everything I can think of that I can complete during my PhD.
 
-Following on from my work on the ND280 software, where I helped look at the different options for the software’s version control, its package naming and the implementation of ROOT6, I plan to help with the transition of the software from the CVS repositories to GitLab. This will include implementing validation tests that check any uploaded code to ensure the software still runs correctly. I’m in a good position to carry out this work as I have access to the COMET repositories on GitLab and I’m in contact with several COMET collaborators (COMET is another particle physics experiment with involvement from ICL) that can give advice on how they transitioned to GitLab.
+Following on from my work on the ND280 software, where I helped look at the different options for the software’s version control---its package naming, build methods, and the implementation of ROOT6---I plan to help with the transition of the software from the CVS repositories to GitLab. This will include implementing validation tests that check any uploaded code to ensure the software still runs correctly. I'm in a good position to carry out this work as I have access to the COMET repositories on GitLab and I am in contact with several COMET collaborators (COMET is another particle physics experiment with involvement from ICL) that can give advice on how they transitioned to GitLab.
 
 Once the code is transitioned it will also need to be maintained. It is still to be decided whether a CVS build will be kept frozen or developed alongside the GitLab repositories, in which case it could be my duty to transfer data added to the CVS version to GitLab. Any other issues that arise such as updating package names could also be assigned to me.
 
 Currently, the ND280 software is built using CMT, which creates the many packages that comprise the software. It has been decided that we will move on to using CMake instead of CMT, due to its flexibility and efficiency. It is still to be determined whether this transition will happen during the migration to GitLab or after. In either case I will be able to help implement the CMake build. I have some experience of the CMake language after studying the COMET implementation of their CMake build.
 
-I am becoming familiar with the new Super-FGD detector to be installed for the ND280 upgrade in ∼2 years. I assisted with the beam test of the prototype at CERN, which involved assembling the electronics of the detector and taking data with the detector during the test. This could lead on to me helping with the analysis of the data from the beam test. From there I may also become involved with the actual Super-FGD and help to get it ready for installation at ND280.
+I am becoming familiar with the new Super-FGD detector to be installed for the ND280 upgrade in ∼2 years. I assisted with the beam test of the prototype at CERN, as outlined in section \ref{sec:fgd}. This could lead on to me helping with the analysis of the data from the beam test. From there I may also become involved with the actual Super-FGD and help to get it ready for installation at ND280.
 
 I will also progress with my work on the production 7 analysis of electron neutrinos and anti-electron neutrinos at ND280 for the anti-neutrino beam data. I have read up on the production 6 analysis and am now in the process of reproducing their selection plots. My future work will move on to using the new production 7 Monte Carlo data in my analysis and extracting the electron neutrino and anti-electron neutrino composition of the beam and the detector systematic errors by performing fits on the data after selection cuts. I will also validate the results of the fits using Monte Carlo data.
 
 Another potential project for me is the chance to perform an oscillation analysis using the latest data from T2K. This could form quite a large portion of the work I will include in my thesis, so it is important I become more familiar with the techniques and knowledge required for such an analyses.
 
-\section{Summary}
+%\section{Summary}
 
 \bibliographystyle{mystyle}
 \bibliography{bibliography.bib}

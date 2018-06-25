@@ -541,4 +541,18 @@
   publisher = {Elsevier {BV}},
 }
 
+@Article{Cadoux2018,
+  author = {F. Cadoux and L. Ncola and E. Noah},
+  title  = {Platform Super-FGD Beam Tests},
+  year   = {2018},
+  note   = {\url{https://indico.cern.ch/event/721110/contributions/2964314/attachments/1629976/2597771/Platform_beam_tests_SuperFGD_6April2018.pdf}},
+}
+
+@Article{Korzenev2018,
+  author = {A. Korzenev},
+  title  = {PID System for the Super-FGD Test-Beam in 2018},
+  year   = {2018},
+  note   = {\url{https://indico.cern.ch/event/716235/contributions/2949678/attachments/1623617/2584802/testbeam_sFGD.pdf}},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

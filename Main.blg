@@ -7,50 +7,52 @@ Database file #2: bibliography.bib.bib
 Warning--empty journal in Berliner2001
 Warning--empty journal in Ritt2001
 Warning--empty journal in Brooks2015
+Warning--empty journal in Cadoux2018
 Warning--empty journal in CAEN
 Warning--empty year in CAEN
+Warning--empty journal in Korzenev2018
 Warning--empty author in CMake
 Warning--empty journal in CMake
 Warning--empty year in CMake
-You've used 32 entries,
+You've used 34 entries,
             2435 wiz_defined-function locations,
-            1244 strings with 44823 characters,
-and the built_in function-call counts, 10653 in all, are:
-= -- 591
-> -- 248
+            1254 strings with 45232 characters,
+and the built_in function-call counts, 11184 in all, are:
+= -- 616
+> -- 265
 < -- 2
-+ -- 113
-- -- 56
-* -- 751
-:= -- 1067
-add.period$ -- 32
-call.type$ -- 32
-change.case$ -- 10
++ -- 121
+- -- 60
+* -- 784
+:= -- 1119
+add.period$ -- 34
+call.type$ -- 34
+change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 40
-duplicate$ -- 1261
-empty$ -- 1218
-format.name$ -- 79
-if$ -- 2299
+cite$ -- 44
+duplicate$ -- 1332
+empty$ -- 1274
+format.name$ -- 84
+if$ -- 2410
 int.to.chr$ -- 0
-int.to.str$ -- 32
-missing$ -- 306
-newline$ -- 102
-num.names$ -- 31
-pop$ -- 493
+int.to.str$ -- 34
+missing$ -- 324
+newline$ -- 108
+num.names$ -- 33
+pop$ -- 530
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 250
+skip$ -- 265
 stack$ -- 0
-substring$ -- 510
-swap$ -- 728
+substring$ -- 514
+swap$ -- 761
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 8
-while$ -- 65
-width$ -- 34
-write$ -- 292
-(There were 8 warnings)
+warning$ -- 10
+while$ -- 67
+width$ -- 36
+write$ -- 308
+(There were 10 warnings)

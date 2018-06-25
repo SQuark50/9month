@@ -529,4 +529,30 @@
   publisher = {American Physical Society ({APS})},
 }
 
+@Article{Aoki2013,
+  author    = {S. Aoki and G. Barr and M. Batkiewicz and J. B{\l}ocki and J.D. Brinson and W. Coleman and A. D{\k{a}}browska and I. Danko and M. Dziewiecki and B. Ellison and L. Golyshkin and R. Gould and T. Hara and J. Haremza and B. Hartfiel and J. Holeczek and A. Izmaylov and M. Khabibullin and A. Khotjantsev and D. Kie{\l}czewska and A. Kilinski and J. Kisiel and Y. Kudenko and N. Kulkarni and R. Kurjata and T. Kutter and J. {\L}agoda and J. Liu and J. Marzec and W. Metcalf and C. Metelko and P. Mijakowski and O. Mineev and D. Naples and M. Nauman and T.C. Nicholls and D. Northacker and J. Nowak and M. Noy and V. Paolone and G.F. Pearce and O. Perevozchikov and M. Posiada{\l}a and P. Przew{\l}ocki and W. Qian and M. Raymond and J. Reid and E. Rondio and E. Shabalin and M. Siyad and D. Smith and J. Sobczyk and M. Stodulski and R. Sulej and J. {\'{S}}wierblewski and A.T. Suzuki and T. Szeg{\l}owski and M. Szeptycka and M. Thorpe and T. W{\k{a}}cha{\l}a and D. Warner and A. Weber and T. Yano and N. Yershov and A. Zalewska and K. Zaremba and M. Ziembicki},
+  title     = {The T2K Side Muon Range Detector ({SMRD})},
+  journal   = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
+  year      = {2013},
+  volume    = {698},
+  pages     = {135--146},
+  month     = {jan},
+  doi       = {10.1016/j.nima.2012.10.001},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Cadoux2018,
+  author = {F. Cadoux and L. NIcola and E. Noah},
+  title  = {Platform Super-FGD Beam Tests},
+  year   = {2018},
+  note   = {\url{https://indico.cern.ch/event/721110/contributions/2964314/attachments/1629976/2597771/Platform_beam_tests_SuperFGD_6April2018.pdf}},
+}
+
+@Article{Korzenev2018,
+  author = {A. Korzenev},
+  title  = {PID System for the Super-FGD Test-Beam in 2018},
+  year   = {2018},
+  note   = {\url{https://indico.cern.ch/event/716235/contributions/2949678/attachments/1623617/2584802/testbeam_sFGD.pdf}},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -132,6 +132,10 @@ L.~Durieu, M.~Martini, and A.-S. Muller, \emph{Optics studies for the T9 beam
 T.~Brooks, \emph{MNP17} (2015),
   \url{https://twiki.cern.ch/twiki/bin/view/BL4S/MagneticField}.
 
+\bibitem{Cadoux2018}
+F.~Cadoux, L.~Nicola, and E.~Noah, \emph{Platform Super-FGD Beam Tests} (2018),
+  \url{https://indico.cern.ch/event/721110/contributions/2964314/attachments/1629976/2597771/Platform_beam_tests_SuperFGD_6April2018.pdf}.
+
 \bibitem{Antonova2017}
 M.~Antonova et~al., \emph{Baby {MIND}: a magnetized segmented neutrino detector
   for the {WAGASCI} experiment}, Journal of Instrumentation, \textbf{12}~(07),
@@ -140,6 +144,10 @@ M.~Antonova et~al., \emph{Baby {MIND}: a magnetized segmented neutrino detector
 \bibitem{CAEN}
 CAEN, \emph{WaveCatcher Digitisers},
   \url{http://www.caen.it/csite/CaenProd.jsp?idmod=857&parent=38}.
+
+\bibitem{Korzenev2018}
+A.~Korzenev, \emph{PID System for the Super-FGD Test-Beam in 2018} (2018),
+  \url{https://indico.cern.ch/event/716235/contributions/2949678/attachments/1623617/2584802/testbeam_sFGD.pdf}.
 
 \bibitem{Wu2017}
 C.~Wu, \emph{Search for Muon to Electron Conversion at J-{PARC}}, Nuclear and
