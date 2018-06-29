@@ -1,4 +1,4 @@
-\contentsline {title}{Upgrading ND280 and an Overview of $\nu _e$ and $\mathaccentV {bar}016\nu _e$ Detection using an Anti-Neutrino Beam\vspace {0mm}}{1}{section*.2}
+\contentsline {title}{Upgrading the Near Detector of T2K, the Beam Test of a New Scintillator Detector Design, and $\nu _e$\ and $\mathaccentV {bar}016\nu _e$\ Detection in an Anti-Neutrino Beam\vspace {0mm}}{1}{section*.2}
 \contentsline {abstract}{Abstract}{1}{section*.1}
 \tocdepth@munge 
 \contentsline {section}{\numberline {}Contents}{2}{section*.3}
@@ -18,14 +18,13 @@
 \contentsline {section}{\numberline {VI}Super-FGD Beam Test}{11}{section*.22}
 \contentsline {subsection}{\numberline {A}The Super-FGD Prototype}{12}{section*.23}
 \contentsline {subsection}{\numberline {B}The Beam Test Configuration}{13}{section*.25}
-\contentsline {subsection}{\numberline {C}Initial Beam Test Results}{14}{section*.28}
-\contentsline {section}{\numberline {VII}Software Changes}{14}{section*.29}
-\contentsline {subsection}{\numberline {A}Version Control}{15}{section*.30}
-\contentsline {subsection}{\numberline {B}Package Names}{15}{section*.31}
-\contentsline {subsection}{\numberline {C}CMake and CMT}{16}{section*.32}
-\contentsline {subsection}{\numberline {D}Mix-in Classes}{16}{section*.33}
-\contentsline {section}{\numberline {VIII}\unhbox \voidb@x \hbox {(Anti-)Electron} Neutrino Detection at ND280}{17}{section*.34}
-\contentsline {subsection}{\numberline {A}Selection Cuts}{17}{section*.35}
-\contentsline {subsection}{\numberline {B}Production 6 Analysis}{17}{section*.36}
-\contentsline {section}{\numberline {IX}Future Work}{17}{section*.37}
-\contentsline {section}{\numberline {}References}{18}{section*.38}
+\contentsline {subsection}{\numberline {C}MPPC Calibration}{14}{section*.28}
+\contentsline {section}{\numberline {VII}Software Changes}{15}{section*.30}
+\contentsline {subsection}{\numberline {A}Version Control}{16}{section*.31}
+\contentsline {subsection}{\numberline {B}Package Names}{16}{section*.32}
+\contentsline {subsection}{\numberline {C}CMake and CMT}{17}{section*.33}
+\contentsline {subsection}{\numberline {D}Mix-in Classes}{18}{section*.34}
+\contentsline {section}{\numberline {VIII}\unhbox \voidb@x \hbox {(Anti-)Electron} Neutrino Detection at ND280}{18}{section*.35}
+\contentsline {subsection}{\numberline {A}Selection Cuts}{18}{section*.36}
+\contentsline {section}{\numberline {IX}Future Work and Conclusions}{19}{section*.37}
+\contentsline {section}{\numberline {}References}{20}{section*.38}

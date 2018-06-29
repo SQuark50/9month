@@ -378,7 +378,7 @@
 @Article{Agostinelli2003,
   author    = {S. Agostinelli and J. Allison and K. Amako and J. Apostolakis and H. Araujo and P. Arce and M. Asai and D. Axen and S. Banerjee and G. Barrand and F. Behner and L. Bellagamba and J. Boudreau and L. Broglia and A. Brunengo and H. Burkhardt and S. Chauvie and J. Chuma and R. Chytracek and G. Cooperman and G. Cosmo and P. Degtyarenko and A. Dell{\textquotesingle}Acqua and G. Depaola and D. Dietrich and R. Enami and A. Feliciello and C. Ferguson and H. Fesefeldt and G. Folger and F. Foppiano and A. Forti and S. Garelli and S. Giani and R. Giannitrapani and D. Gibin and J.J. G{\'{o}}mez Cadenas and I. Gonz{\'{a}}lez and G. Gracia Abril and G. Greeniaus and W. Greiner and V. Grichine and A. Grossheim and S. Guatelli and P. Gumplinger and R. Hamatsu and K. Hashimoto and H. Hasui and A. Heikkinen and A. Howard and V. Ivanchenko and A. Johnson and F.W. Jones and J. Kallenbach and N. Kanaya and M. Kawabata and Y. Kawabata and M. Kawaguti and S. Kelner and P. Kent and A. Kimura and T. Kodama and R. Kokoulin and M. Kossov and H. Kurashige and E. Lamanna and T. Lamp{\'{e}}n and V. Lara and V. Lefebure and F. Lei and M. Liendl and W. Lockman and F. Longo and S. Magni and M. Maire and E. Medernach and K. Minamimoto and P. Mora de Freitas and Y. Morita and K. Murakami and M. Nagamatu and R. Nartallo and P. Nieminen and T. Nishimura and K. Ohtsubo and M. Okamura and S. O{\textquotesingle}Neale and Y. Oohata and K. Paech and J. Perl and A. Pfeiffer and M.G. Pia and F. Ranjard and A. Rybin and S. Sadilov and E. Di Salvo and G. Santin and T. Sasaki and N. Savvas and Y. Sawada and S. Scherer and S. Sei and V. Sirotenko and D. Smith and N. Starkov and H. Stoecker and J. Sulkimo and M. Takahata and S. Tanaka and E. Tcherniaev and E. Safai Tehrani and M. Tropeano and P. Truscott and H. Uno and L. Urban and P. Urban and M. Verderi and A. Walkden and W. Wander and H. Weber and J.P. Wellisch and T. Wenaus and D.C. Williams and D. Wright and T. Yamada and H. Yoshida and D. Zschiesche},
   title     = {Geant4{\textemdash}a simulation toolkit},
-  journal   = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
+  journal   = {Nucl. Instrum. Methods Phys. Res. Sect. A},
   year      = {2003},
   volume    = {506},
   number    = {3},
@@ -386,9 +386,6 @@
   month     = {jul},
   doi       = {10.1016/s0168-9002(03)01368-8},
   publisher = {Elsevier {BV}},
-}
-
-@Conference{,
 }
 
 @InProceedings{Arnault:2000vu,
@@ -410,7 +407,7 @@
 @Article{Andreopoulos2010,
   author    = {C. Andreopoulos and A. Bell and D. Bhattacharya and F. Cavanna and J. Dobson and S. Dytman and H. Gallagher and P. Guzowski and R. Hatcher and P. Kehayias and A. Meregaglia and D. Naples and G. Pearce and A. Rubbia and M. Whalley and T. Yang},
   title     = {The {GENIE} neutrino Monte Carlo generator},
-  journal   = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
+  journal   = {Nucl. Instrum. Methods Phys. Res. Sect. A},
   year      = {2010},
   volume    = {614},
   number    = {1},
@@ -532,7 +529,7 @@
 @Article{Aoki2013,
   author    = {S. Aoki and G. Barr and M. Batkiewicz and J. B{\l}ocki and J.D. Brinson and W. Coleman and A. D{\k{a}}browska and I. Danko and M. Dziewiecki and B. Ellison and L. Golyshkin and R. Gould and T. Hara and J. Haremza and B. Hartfiel and J. Holeczek and A. Izmaylov and M. Khabibullin and A. Khotjantsev and D. Kie{\l}czewska and A. Kilinski and J. Kisiel and Y. Kudenko and N. Kulkarni and R. Kurjata and T. Kutter and J. {\L}agoda and J. Liu and J. Marzec and W. Metcalf and C. Metelko and P. Mijakowski and O. Mineev and D. Naples and M. Nauman and T.C. Nicholls and D. Northacker and J. Nowak and M. Noy and V. Paolone and G.F. Pearce and O. Perevozchikov and M. Posiada{\l}a and P. Przew{\l}ocki and W. Qian and M. Raymond and J. Reid and E. Rondio and E. Shabalin and M. Siyad and D. Smith and J. Sobczyk and M. Stodulski and R. Sulej and J. {\'{S}}wierblewski and A.T. Suzuki and T. Szeg{\l}owski and M. Szeptycka and M. Thorpe and T. W{\k{a}}cha{\l}a and D. Warner and A. Weber and T. Yano and N. Yershov and A. Zalewska and K. Zaremba and M. Ziembicki},
   title     = {The T2K Side Muon Range Detector ({SMRD})},
-  journal   = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
+  journal   = {Nucl. Instrum. Methods Phys. Res. Sect. A},
   year      = {2013},
   volume    = {698},
   pages     = {135--146},
@@ -542,7 +539,7 @@
 }
 
 @Article{Cadoux2018,
-  author = {F. Cadoux and L. NIcola and E. Noah},
+  author = {F. Cadoux and L. Nicola and E. Noah},
   title  = {Platform Super-FGD Beam Tests},
   year   = {2018},
   note   = {\url{https://indico.cern.ch/event/721110/contributions/2964314/attachments/1629976/2597771/Platform_beam_tests_SuperFGD_6April2018.pdf}},
@@ -553,6 +550,30 @@
   title  = {PID System for the Super-FGD Test-Beam in 2018},
   year   = {2018},
   note   = {\url{https://indico.cern.ch/event/716235/contributions/2949678/attachments/1623617/2584802/testbeam_sFGD.pdf}},
+}
+
+@Article{Christodoulou2017,
+  author    = {G. Christodoulou and S. King and B. Jamieson and P. Lasorak and N. McCauley and},
+  title     = {Selection of electron (anti-)neutrinos at the T2K near detector {ND}280},
+  journal   = {Journal of Physics: Conference Series},
+  year      = {2017},
+  volume    = {888},
+  pages     = {012218},
+  month     = {sep},
+  doi       = {10.1088/1742-6596/888/1/012218},
+  publisher = {{IOP} Publishing},
+}
+
+@Article{cvs,
+  title = {CVS: Concurrent Version Systems},
+  note  = {\url{https://www.nongnu.org/cvs/}},
+}
+
+@Article{Giganti2013,
+  author  = {C. Giganti and N. McCauley},
+  title   = {Measurement of the electron neutrino beam component in the ND280 Tracker for 2013 analyses},
+  journal = {TN-149},
+  year    = {2013},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

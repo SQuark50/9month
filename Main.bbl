@@ -11,11 +11,6 @@ F.~{Reines} and C.~L. {Cowan}, \emph{{The Neutrino}}, Nature, \textbf{178},
 Y.~Fukuda et~al., \emph{Evidence for Oscillation of Atmospheric Neutrinos},
   Physical Review Letters, \textbf{81}~(8), 1562--1567 (1998).
 
-\bibitem{PhysRevLett.89.011301}
-Q.~R. Ahmad et~al. (SNO Collaboration), \emph{Direct Evidence for Neutrino
-  Flavor Transformation from Neutral-Current Interactions in the Sudbury
-  Neutrino Observatory}, Phys. Rev. Lett., \textbf{89}, 011301 (2002).
-
 \bibitem{PhysRevLett.108.171803}
 F.~P. An et~al., \emph{Observation of Electron-Antineutrino Disappearance at
   Daya Bay}, Phys. Rev. Lett., \textbf{108}, 171803 (2012).
@@ -24,6 +19,11 @@ F.~P. An et~al., \emph{Observation of Electron-Antineutrino Disappearance at
 Y.~Abe et~al. (Double Chooz Collaboration), \emph{Indication of Reactor
   ${\overline{\ensuremath{\nu}}}_{e}$ Disappearance in the Double Chooz
   Experiment}, Phys. Rev. Lett., \textbf{108}, 131801 (2012).
+
+\bibitem{PhysRevLett.89.011301}
+Q.~R. Ahmad et~al. (SNO Collaboration), \emph{Direct Evidence for Neutrino
+  Flavor Transformation from Neutral-Current Interactions in the Sudbury
+  Neutrino Observatory}, Phys. Rev. Lett., \textbf{89}, 011301 (2002).
 
 \bibitem{PhysRevLett.108.191802}
 J.~K. Ahn et~al. (RENO Collaboration), \emph{Observation of Reactor Electron
@@ -59,10 +59,8 @@ K.~Abe et~al., \emph{The T2K experiment}, Nucl. Instrum. Methods Phys. Res.
   Sect. A, \textbf{659}~(1), 106--135 (2011).
 
 \bibitem{Aoki2013}
-S.~Aoki et~al., \emph{The T2K Side Muon Range Detector ({SMRD})}, Nuclear
-  Instruments and Methods in Physics Research Section A: Accelerators,
-  Spectrometers, Detectors and Associated Equipment, \textbf{698}, 135--146
-  (2013).
+S.~Aoki et~al., \emph{The T2K Side Muon Range Detector ({SMRD})}, Nucl.
+  Instrum. Methods Phys. Res. Sect. A, \textbf{698}, 135--146 (2013).
 
 \bibitem{Assylbekov:2011sh}
 S.~Assylbekov et~al., \emph{{The T2K ND280 Off-Axis Pi-Zero Detector}}, Nucl.
@@ -78,22 +76,14 @@ N.~Abgrall et~al. (T2K ND280 TPC), \emph{{Time Projection Chambers for the T2K
   Near Detectors}}, Nucl. Instrum. Meth., \textbf{A637}, 25--46 (2011),
   \url{arXiv}:\url{1012.0865}.
 
-\bibitem{Allan:2013ofa}
-D.~Allan et~al. (T2K UK), \emph{{The Electromagnetic Calorimeter for the T2K
-  Near Detector ND280}}, JINST, \textbf{8}, P10019 (2013),
-  \url{arXiv}:\url{1308.3445}.
-
 \bibitem{Brun1997}
 R.~Brun and F.~Rademakers, \emph{{ROOT} {\textemdash} An object oriented data
-  analysis framework}, Nuclear Instruments and Methods in Physics Research
-  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment,
+  analysis framework}, Nucl. Instrum. Methods Phys. Res. Sect. A,
   \textbf{389}~(1-2), 81--86 (1997).
 
 \bibitem{Agostinelli2003}
-S.~Agostinelli et~al., \emph{Geant4{\textemdash}a simulation toolkit}, Nuclear
-  Instruments and Methods in Physics Research Section A: Accelerators,
-  Spectrometers, Detectors and Associated Equipment, \textbf{506}~(3), 250--303
-  (2003).
+S.~Agostinelli et~al., \emph{Geant4{\textemdash}a simulation toolkit}, Nucl.
+  Instrum. Methods Phys. Res. Sect. A, \textbf{506}~(3), 250--303 (2003).
 
 \bibitem{Arnault:2000vu}
 C.~Arnault, \emph{{CMT: A software configuration management tool}}, In
@@ -114,9 +104,7 @@ Y.~Hayato, \emph{{A neutrino interaction simulation program library NEUT}},
 
 \bibitem{Andreopoulos2010}
 C.~Andreopoulos et~al., \emph{The {GENIE} neutrino Monte Carlo generator},
-  Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
-  Spectrometers, Detectors and Associated Equipment, \textbf{614}~(1), 87--104
-  (2010).
+  Nucl. Instrum. Methods Phys. Res. Sect. A, \textbf{614}~(1), 87--104 (2010).
 
 \bibitem{Blondel:2299599}
 P.~Hamacher-Baumann et~al., \emph{{The T2K-ND280 upgrade proposal}}, Technical
@@ -160,5 +148,14 @@ C.~Wu, \emph{Search for Muon to Electron Conversion at J-{PARC}}, Nuclear and
 M.~Clemencic and P.~Mato, \emph{A CMake-based build and configuration
   framework}, Journal of Physics: Conference Series, \textbf{396}~(5), 052021
   (2012).
+
+\bibitem{Christodoulou2017}
+G.~Christodoulou et~al., \emph{Selection of electron (anti-)neutrinos at the
+  T2K near detector {ND}280}, Journal of Physics: Conference Series,
+  \textbf{888}, 012218 (2017).
+
+\bibitem{Giganti2013}
+C.~Giganti and N.~McCauley, \emph{Measurement of the electron neutrino beam
+  component in the ND280 Tracker for 2013 analyses}, TN-149 (2013).
 
 \end{thebibliography}

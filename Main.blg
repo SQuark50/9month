@@ -14,45 +14,45 @@ Warning--empty journal in Korzenev2018
 Warning--empty author in CMake
 Warning--empty journal in CMake
 Warning--empty year in CMake
-You've used 34 entries,
+You've used 35 entries,
             2435 wiz_defined-function locations,
-            1254 strings with 45232 characters,
-and the built_in function-call counts, 11184 in all, are:
-= -- 616
-> -- 265
+            1256 strings with 45306 characters,
+and the built_in function-call counts, 11418 in all, are:
+= -- 627
+> -- 274
 < -- 2
-+ -- 121
-- -- 60
-* -- 784
-:= -- 1119
-add.period$ -- 34
-call.type$ -- 34
++ -- 125
+- -- 62
+* -- 789
+:= -- 1145
+add.period$ -- 35
+call.type$ -- 35
 change.case$ -- 12
 chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 1332
-empty$ -- 1274
-format.name$ -- 84
-if$ -- 2410
+cite$ -- 45
+duplicate$ -- 1364
+empty$ -- 1299
+format.name$ -- 87
+if$ -- 2461
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 324
-newline$ -- 108
-num.names$ -- 33
-pop$ -- 530
+int.to.str$ -- 35
+missing$ -- 332
+newline$ -- 111
+num.names$ -- 34
+pop$ -- 548
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 265
+skip$ -- 276
 stack$ -- 0
 substring$ -- 514
-swap$ -- 761
+swap$ -- 773
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 10
-while$ -- 67
-width$ -- 36
-write$ -- 308
+while$ -- 68
+width$ -- 37
+write$ -- 315
 (There were 10 warnings)
