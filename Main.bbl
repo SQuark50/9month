@@ -11,6 +11,10 @@ F.~{Reines} and C.~L. {Cowan}, \emph{{The Neutrino}}, Nature, \textbf{178},
 Y.~Fukuda et~al., \emph{Evidence for Oscillation of Atmospheric Neutrinos},
   Physical Review Letters, \textbf{81}~(8), 1562--1567 (1998).
 
+\bibitem{Suzuki2014}
+A.~Suzuki, \emph{Antineutrino science in {KamLAND}}, The European Physical
+  Journal C, \textbf{74}~(10) (2014).
+
 \bibitem{PhysRevLett.108.171803}
 F.~P. An et~al., \emph{Observation of Electron-Antineutrino Disappearance at
   Daya Bay}, Phys. Rev. Lett., \textbf{108}, 171803 (2012).
@@ -19,16 +23,6 @@ F.~P. An et~al., \emph{Observation of Electron-Antineutrino Disappearance at
 Y.~Abe et~al. (Double Chooz Collaboration), \emph{Indication of Reactor
   ${\overline{\ensuremath{\nu}}}_{e}$ Disappearance in the Double Chooz
   Experiment}, Phys. Rev. Lett., \textbf{108}, 131801 (2012).
-
-\bibitem{PhysRevLett.89.011301}
-Q.~R. Ahmad et~al. (SNO Collaboration), \emph{Direct Evidence for Neutrino
-  Flavor Transformation from Neutral-Current Interactions in the Sudbury
-  Neutrino Observatory}, Phys. Rev. Lett., \textbf{89}, 011301 (2002).
-
-\bibitem{PhysRevLett.108.191802}
-J.~K. Ahn et~al. (RENO Collaboration), \emph{Observation of Reactor Electron
-  Antineutrinos Disappearance in the RENO Experiment}, Phys. Rev. Lett.,
-  \textbf{108}, 191802 (2012).
 
 \bibitem{PhysRevD.88.032002}
 K.~Abe et~al. (T2K Collaboration), \emph{Evidence of electron neutrino
@@ -137,18 +131,6 @@ CAEN, \emph{WaveCatcher Digitisers},
 A.~Korzenev, \emph{PID System for the Super-FGD Test-Beam in 2018} (2018),
   \url{https://indico.cern.ch/event/716235/contributions/2949678/attachments/1623617/2584802/testbeam_sFGD.pdf}.
 
-\bibitem{Wu2017}
-C.~Wu, \emph{Search for Muon to Electron Conversion at J-{PARC}}, Nuclear and
-  Particle Physics Proceedings, \textbf{287-288}, 173--176 (2017).
-
-\bibitem{CMake}
-\emph{CMake: Cross-platform Make}, \url{http://www.cmake.org}.
-
-\bibitem{Clemencic2012}
-M.~Clemencic and P.~Mato, \emph{A CMake-based build and configuration
-  framework}, Journal of Physics: Conference Series, \textbf{396}~(5), 052021
-  (2012).
-
 \bibitem{Christodoulou2017}
 G.~Christodoulou et~al., \emph{Selection of electron (anti-)neutrinos at the
   T2K near detector {ND}280}, Journal of Physics: Conference Series,
@@ -157,5 +139,9 @@ G.~Christodoulou et~al., \emph{Selection of electron (anti-)neutrinos at the
 \bibitem{Giganti2013}
 C.~Giganti and N.~McCauley, \emph{Measurement of the electron neutrino beam
   component in the ND280 Tracker for 2013 analyses}, TN-149 (2013).
+
+\bibitem{Wu2017}
+C.~Wu, \emph{Search for Muon to Electron Conversion at J-{PARC}}, Nuclear and
+  Particle Physics Proceedings, \textbf{287-288}, 173--176 (2017).
 
 \end{thebibliography}

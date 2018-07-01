@@ -365,7 +365,7 @@
 @Article{Brun1997,
   author    = {Rene Brun and Fons Rademakers},
   title     = {{ROOT} {\textemdash} An object oriented data analysis framework},
-  journal   = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
+  journal   = {Nucl. Instrum. Methods Phys. Res. Sect. A},
   year      = {1997},
   volume    = {389},
   number    = {1-2},

@@ -1,4 +1,4 @@
-\BOOKMARK [0][-]{section*.2}{Upgrading the Near Detector of T2K, the Beam Test of a New Scintillator Detector Design, and e and e Detection in an Anti-Neutrino Beam0mm}{}% 2
+\BOOKMARK [0][-]{section*.2}{Upgrading the Near Detector of T2K, the Beam Test of a New Scintillator Detector Design, and Electron Neutrino Detection in a Neutrino Beam 0mm}{}% 2
 \BOOKMARK [1][-]{section*.1}{Abstract}{section*.2}% 1
 \BOOKMARK [1][-]{section*.3}{Contents}{section*.2}% 3
 \BOOKMARK [1][-]{section*.4}{Introduction}{section*.2}% 4
@@ -17,12 +17,9 @@
 \BOOKMARK [2][-]{section*.23}{The Super-FGD Prototype}{section*.22}% 17
 \BOOKMARK [2][-]{section*.25}{The Beam Test Configuration}{section*.22}% 18
 \BOOKMARK [2][-]{section*.28}{MPPC Calibration}{section*.22}% 19
-\BOOKMARK [1][-]{section*.30}{Software Changes}{section*.2}% 20
-\BOOKMARK [2][-]{section*.31}{Version Control}{section*.30}% 21
-\BOOKMARK [2][-]{section*.32}{Package Names}{section*.30}% 22
-\BOOKMARK [2][-]{section*.33}{CMake and CMT}{section*.30}% 23
-\BOOKMARK [2][-]{section*.34}{Mix-in Classes}{section*.30}% 24
-\BOOKMARK [1][-]{section*.35}{\(Anti-\)Electron Neutrino Detection at ND280}{section*.2}% 25
-\BOOKMARK [2][-]{section*.36}{Selection Cuts}{section*.35}% 26
-\BOOKMARK [1][-]{section*.37}{Future Work and Conclusions}{section*.2}% 27
-\BOOKMARK [1][-]{section*.38}{References}{section*.2}% 28
+\BOOKMARK [2][-]{section*.30}{Initial Data}{section*.22}% 20
+\BOOKMARK [1][-]{section*.32}{Software Changes}{section*.2}% 21
+\BOOKMARK [1][-]{section*.33}{\(Anti-\)Electron Neutrino Detection at ND280}{section*.2}% 22
+\BOOKMARK [2][-]{section*.34}{Selection Cuts}{section*.33}% 23
+\BOOKMARK [1][-]{section*.35}{Future Work and Conclusions}{section*.2}% 24
+\BOOKMARK [1][-]{section*.36}{References}{section*.2}% 25
