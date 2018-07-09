@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.6.22)  1 JUL 2018 17:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.6.22)  2 JUL 2018 19:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -459,36 +459,36 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-Class revtex4-1 Info: Patching LaTeX tabular. on input line 15.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 15.
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 17.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 17.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 15.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 15.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 15.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 17.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 17.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 17.
  (./Main.aux)
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -521,7 +521,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box46
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -531,9 +531,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count128
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+LaTeX Info: Redefining \nameref on input line 17.
 
 (./Main.out) (./Main.out)
 \@outlinefile=\write4
@@ -543,22 +543,22 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \symgns@font=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 15.
-Package gensymb Info: Math companion symbols declared on input line 15.
-LaTeX Info: Redefining \degree on input line 15.
-LaTeX Info: Redefining \celsius on input line 15.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 17.
+Package gensymb Info: Math companion symbols declared on input line 17.
+LaTeX Info: Redefining \degree on input line 17.
+LaTeX Info: Redefining \celsius on input line 17.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 15.
-LaTeX Info: Redefining \ohm on input line 15.
-Package gensymb Info: Using \textohm for \ohm on input line 15.
-Package gensymb Info: Using \textmu for \micro on input line 15.
-Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 15.
+erthousand on input line 17.
+LaTeX Info: Redefining \ohm on input line 17.
+Package gensymb Info: Using \textohm for \ohm on input line 17.
+Package gensymb Info: Using \textmu for \micro on input line 17.
+Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 17.
 \openout3 = `MainNotes.bib'.
 
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\new@ifnextchar' on input line 26.
+(hyperref)                removing `\new@ifnextchar' on input line 28.
 
 [1{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
 (./Main.toc
@@ -575,68 +575,61 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout5 = `Main.toc'.
 
  [2] [3] [4]
-<Images/T2K_detail.png, id=184, 1325.95375pt x 901.3675pt>
-File: Images/T2K_detail.png Graphic file (type png)
+<Images/T2K.png, id=208, 715.17188pt x 157.33781pt>
+File: Images/T2K.png Graphic file (type png)
+ <use Images/T2K.png>
+Package pdftex.def Info: Images/T2K.png used on input line 121.
+(pdftex.def)             Requested size: 429.10643pt x 94.4034pt.
 
-<use Images/T2K_detail.png>
-Package pdftex.def Info: Images/T2K_detail.png used on input line 117.
-(pdftex.def)             Requested size: 437.5661pt x 297.45218pt.
- <Images/axis.png, id=188, 453.695pt x 501.875pt>
-File: Images/axis.png Graphic file (type png)
-
-<use Images/axis.png>
-Package pdftex.def Info: Images/axis.png used on input line 124.
-(pdftex.def)             Requested size: 226.84694pt x 250.93687pt.
- [5 <./Images/T2K_detail.png>]
-<Images/ND280.png, id=199, 249.3315pt x 220.71259pt>
+[5 <./Images/T2K.png (PNG copy)>]
+<Images/ND280.png, id=220, 249.3315pt x 220.71259pt>
 File: Images/ND280.png Graphic file (type png)
  <use Images/ND280.png>
-Package pdftex.def Info: Images/ND280.png used on input line 141.
+Package pdftex.def Info: Images/ND280.png used on input line 139.
 (pdftex.def)             Requested size: 249.33087pt x 220.71204pt.
 
-[6 <./Images/axis.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 148.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pi' on input line 148.
+(hyperref)                removing `math shift' on input line 146.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 148.
+(hyperref)                removing `\pi' on input line 146.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 148.
+(hyperref)                removing `superscript' on input line 146.
 
-[7 <./Images/ND280.png>] [8]
-<Images/struct.png, id=237, 752.8125pt x 556.0775pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 146.
+
+[6 <./Images/ND280.png>] [7]
+<Images/struct.png, id=252, 752.8125pt x 556.0775pt>
 File: Images/struct.png Graphic file (type png)
  <use Images/struct.png>
-Package pdftex.def Info: Images/struct.png used on input line 181.
+Package pdftex.def Info: Images/struct.png used on input line 180.
 (pdftex.def)             Requested size: 376.40532pt x 278.03807pt.
 
-[9 <./Images/struct.png (PNG copy)>]
-<Images/upgrade2.png, id=255, 668.4975pt x 362.35374pt>
+[8 <./Images/struct.png (PNG copy)>]
+<Images/upgrade2.png, id=269, 668.4975pt x 362.35374pt>
 File: Images/upgrade2.png Graphic file (type png)
 
 <use Images/upgrade2.png>
-Package pdftex.def Info: Images/upgrade2.png used on input line 195.
+Package pdftex.def Info: Images/upgrade2.png used on input line 196.
 (pdftex.def)             Requested size: 334.24792pt x 181.17642pt.
- [10 <./Images/upgrade2.png>]
-<Images/SFGD.png, id=269, 447.92343pt x 212.29312pt>
+ [9]
+<Images/SFGD.png, id=283, 447.92343pt x 212.29312pt>
 File: Images/SFGD.png Graphic file (type png)
  <use Images/SFGD.png>
-Package pdftex.def Info: Images/SFGD.png used on input line 204.
+Package pdftex.def Info: Images/SFGD.png used on input line 213.
 (pdftex.def)             Requested size: 335.94174pt x 159.21945pt.
 
-[11 <./Images/SFGD.png (PNG copy)>]
-<Images/proto.jpg, id=282, 1982.15532pt x 2209.50468pt>
+[10 <./Images/upgrade2.png>]
+<Images/proto.jpg, id=297, 1982.15532pt x 2209.50468pt>
 File: Images/proto.jpg Graphic file (type jpg)
  <use Images/proto.jpg>
-Package pdftex.def Info: Images/proto.jpg used on input line 238.
+Package pdftex.def Info: Images/proto.jpg used on input line 240.
 (pdftex.def)             Requested size: 163.79929pt x 182.56284pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -645,10 +638,10 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ¢ in font cmr10!
 
-<Images/side.jpg, id=283, 3982.88pt x 2987.16pt>
+<Images/side.jpg, id=298, 3982.88pt x 2987.16pt>
 File: Images/side.jpg Graphic file (type jpg)
  <use Images/side.jpg>
-Package pdftex.def Info: Images/side.jpg used on input line 244.
+Package pdftex.def Info: Images/side.jpg used on input line 246.
 (pdftex.def)             Requested size: 187.20071pt x 140.38742pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -656,82 +649,82 @@ Missing character: There is no ¢ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ¢ in font cmr10!
- [12]
-<Images/platform2.png, id=295, 981.6675pt x 477.28313pt>
+ [11 <./Images/SFGD.png (PNG copy)>]
+<Images/platform2.png, id=309, 981.6675pt x 477.28313pt>
 File: Images/platform2.png Graphic file (type png)
 
 <use Images/platform2.png>
-Package pdftex.def Info: Images/platform2.png used on input line 260.
+Package pdftex.def Info: Images/platform2.png used on input line 262.
 (pdftex.def)             Requested size: 392.66003pt x 190.90987pt.
- <Images/daq2.png, id=301, 811.833pt x 354.8457pt>
+ <Images/daq2.png, id=315, 811.833pt x 354.8457pt>
 File: Images/daq2.png Graphic file (type png)
 
 <use Images/daq2.png>
-Package pdftex.def Info: Images/daq2.png used on input line 270.
+Package pdftex.def Info: Images/daq2.png used on input line 272.
 (pdftex.def)             Requested size: 445.4054pt x 193.50954pt.
- [13 <./Images/proto.jpg> <./Images/side.jpg>] [14 <./Images/daq2.png> <./Image
-s/platform2.png (PNG copy)>]
-<Images/MPPC.png, id=325, 700.6175pt x 475.7775pt>
+ [12 <./Images/proto.jpg> <./Images/side.jpg>]
+<Images/MPPC.png, id=330, 700.6175pt x 475.7775pt>
 File: Images/MPPC.png Graphic file (type png)
  <use Images/MPPC.png>
-Package pdftex.def Info: Images/MPPC.png used on input line 283.
+Package pdftex.def Info: Images/MPPC.png used on input line 285.
 (pdftex.def)             Requested size: 350.30789pt x 237.88815pt.
 
-<Images/hit_event2.png, id=328, 493.3632pt x 530.9436pt>
+[13 <./Images/platform2.png (PNG copy)>] [14 <./Images/daq2.png> <./Images/MPPC
+.png>] <Images/hit_event2.png, id=348, 493.3632pt x 530.9436pt>
 File: Images/hit_event2.png Graphic file (type png)
 
 <use Images/hit_event2.png>
-Package pdftex.def Info: Images/hit_event2.png used on input line 294.
+Package pdftex.def Info: Images/hit_event2.png used on input line 296.
 (pdftex.def)             Requested size: 246.681pt x 265.47115pt.
- [15 <./Images/MPPC.png>] [16 <./Images/hit_event2.png>] [17] [18] (./Main.bbl 
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 114--116
+ [15 <./Images/hit_event2.png>] [16] [17] [18]
+[19] (./Main.bbl [20]
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
 []\OT1/cmr/m/n/10.95 T. Brooks, \OT1/cmr/m/it/10.95 MNP17 \OT1/cmr/m/n/10.95 (2
 015), []$\OT1/cmtt/m/n/10.95 https : / / twiki . cern . ch / twiki / bin / view
  / BL4S /
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 118--120
+Underfull \hbox (badness 4120) in paragraph at lines 121--123
 []\OT1/cmr/m/n/10.95 F. Cadoux, L. Nicola, and E. Noah, \OT1/cmr/m/it/10.95 Pla
 t-form Super-FGD Beam Tests \OT1/cmr/m/n/10.95 (2018),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--120
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
 []$\OT1/cmtt/m/n/10.95 https : / / indico . cern . ch / event / 721110 / contri
 butions / 2964314 / attachments /
  []
 
-
-Underfull \hbox (badness 2221) in paragraph at lines 131--133
+[21]
+Underfull \hbox (badness 2221) in paragraph at lines 134--136
 []\OT1/cmr/m/n/10.95 A. Ko-rzenev, \OT1/cmr/m/it/10.95 PID Sys-tem for the Supe
 r-FGD Test-Beam in 2018 \OT1/cmr/m/n/10.95 (2018), []$\OT1/cmtt/m/n/10.95 https
  :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--133
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
 \OT1/cmtt/m/n/10.95 / / indico . cern . ch / event / 716235 / contributions / 2
 949678 / attachments / 1623617 /
  []
 
-) [20]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 389.
+) [22]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 391.
  (./Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 389.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 389.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 391.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 391.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 7C060FA3EE09D1704FABEB1DE20FC266;1820.
+(rerunfilecheck)             Checksum: FF4D6D66C4C704005FDDEFCEC80CD310;2071.
  ) 
 Here is how much of TeX's memory you used:
- 10058 strings out of 493064
- 146800 string characters out of 6138159
- 355235 words of memory out of 5000000
- 13363 multiletter control sequences out of 15000+600000
+ 10075 strings out of 493064
+ 146979 string characters out of 6138159
+ 354951 words of memory out of 5000000
+ 13373 multiletter control sequences out of 15000+600000
  16306 words of font info for 59 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 42i,15n,44p,1186b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,15n,44p,1149b,614s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texl
@@ -749,10 +742,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Main.pdf (20 pages, 3853590 bytes).
+Output written on Main.pdf (22 pages, 2938578 bytes).
 PDF statistics:
- 471 PDF objects out of 1000 (max. 8388607)
- 402 compressed objects within 5 object streams
- 92 named destinations out of 1000 (max. 500000)
- 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 503 PDF objects out of 1000 (max. 8388607)
+ 434 compressed objects within 5 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 294 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -576,4 +576,29 @@
   year    = {2013},
 }
 
+@Article{Suzuki2014,
+  author    = {Atsuto Suzuki},
+  title     = {Antineutrino science in {KamLAND}},
+  journal   = {The European Physical Journal C},
+  year      = {2014},
+  volume    = {74},
+  number    = {10},
+  month     = {oct},
+  doi       = {10.1140/epjc/s10052-014-3094-x},
+  publisher = {Springer Nature},
+}
+
+@Article{Maki1962,
+  author    = {Ziro Maki and Masami Nakagawa and Shoichi Sakata},
+  title     = {Remarks on the Unified Model of Elementary Particles},
+  journal   = {Progress of Theoretical Physics},
+  year      = {1962},
+  volume    = {28},
+  number    = {5},
+  pages     = {870--880},
+  month     = {nov},
+  doi       = {10.1143/ptp.28.870},
+  publisher = {Oxford University Press ({OUP})},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}

@@ -6,22 +6,26 @@
 \contentsline {section}{\numberline {I}Introduction}{3}{section*.4}
 \contentsline {section}{\numberline {II}Neutrino Oscillation Model}{4}{section*.5}
 \contentsline {section}{\numberline {III}T2K}{5}{section*.6}
-\contentsline {section}{\numberline {IV}ND280: Current State}{6}{section*.9}
-\contentsline {subsection}{\numberline {A}$\pi ^0$ Detector (P\O D)}{7}{section*.11}
-\contentsline {subsection}{\numberline {B}Fine Grain Detectors (FGDs)}{8}{section*.12}
-\contentsline {subsection}{\numberline {C}Time Projection Chambers (TPCs)}{8}{section*.13}
-\contentsline {subsection}{\numberline {D}Electronic Calorimeter (ECal)}{8}{section*.14}
-\contentsline {subsection}{\numberline {E}ND280 Software}{9}{section*.15}
-\contentsline {section}{\numberline {V}Hardware Upgrades}{10}{section*.17}
-\contentsline {subsection}{\numberline {A}Scintillator Detector and Horizontal TPCs}{10}{section*.18}
-\contentsline {subsection}{\numberline {B}Time of Flight Detectors}{11}{section*.21}
-\contentsline {section}{\numberline {VI}Super-FGD Beam Test}{12}{section*.22}
-\contentsline {subsection}{\numberline {A}The Super-FGD Prototype}{12}{section*.23}
-\contentsline {subsection}{\numberline {B}The Beam Test Configuration}{12}{section*.25}
-\contentsline {subsection}{\numberline {C}MPPC Calibration}{13}{section*.28}
-\contentsline {subsection}{\numberline {D}Initial Data}{16}{section*.30}
-\contentsline {section}{\numberline {VII}Software Changes}{17}{section*.32}
-\contentsline {section}{\numberline {VIII}\unhbox \voidb@x \hbox {(Anti-)Electron} Neutrino Detection at ND280}{17}{section*.33}
-\contentsline {subsection}{\numberline {A}Selection Cuts}{17}{section*.34}
-\contentsline {section}{\numberline {IX}Future Work and Conclusions}{18}{section*.35}
-\contentsline {section}{\numberline {}References}{19}{section*.36}
+\contentsline {section}{\numberline {IV}ND280: Current State}{5}{section*.8}
+\contentsline {subsection}{\numberline {A}$\pi ^0$ Detector (P\O D)}{6}{section*.10}
+\contentsline {subsection}{\numberline {B}Fine Grain Detectors (FGDs)}{7}{section*.11}
+\contentsline {subsection}{\numberline {C}Time Projection Chambers (TPCs)}{7}{section*.12}
+\contentsline {subsection}{\numberline {D}Electronic Calorimeter (ECal)}{7}{section*.13}
+\contentsline {subsection}{\numberline {E}ND280 Software}{8}{section*.14}
+\contentsline {section}{\numberline {V}Hardware Upgrades}{9}{section*.16}
+\contentsline {subsection}{\numberline {A}Scintillator Detector and Horizontal TPCs}{9}{section*.17}
+\contentsline {subsection}{\numberline {B}Time of Flight Detectors}{10}{section*.20}
+\contentsline {section}{\numberline {VI}Super-FGD Beam Test}{10}{section*.21}
+\contentsline {subsection}{\numberline {A}The Super-FGD Prototype}{11}{section*.22}
+\contentsline {subsection}{\numberline {B}The Beam Test Configuration}{12}{section*.24}
+\contentsline {subsection}{\numberline {C}MPPC Calibration}{13}{section*.27}
+\contentsline {subsection}{\numberline {D}Initial Data}{15}{section*.29}
+\contentsline {section}{\numberline {VII}Software Changes}{16}{section*.31}
+\contentsline {subsection}{\numberline {A}Version Control}{16}{section*.32}
+\contentsline {subsection}{\numberline {B}Package Names}{17}{section*.33}
+\contentsline {subsection}{\numberline {C}CMake and CMT}{17}{section*.34}
+\contentsline {subsection}{\numberline {D}Mix-in Classes}{18}{section*.35}
+\contentsline {section}{\numberline {VIII}\unhbox \voidb@x \hbox {(Anti-)Electron} Neutrino Detection at ND280}{18}{section*.36}
+\contentsline {subsection}{\numberline {A}Selection Cuts}{19}{section*.37}
+\contentsline {section}{\numberline {IX}Future Work and Conclusions}{20}{section*.38}
+\contentsline {section}{\numberline {}References}{20}{section*.39}
