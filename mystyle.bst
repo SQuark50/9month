@@ -47,6 +47,7 @@ ENTRY
     booktitle
     chapter
     collaboration
+    doi
     edition
     editor
     eid
@@ -789,6 +790,15 @@ FUNCTION {format.title}
     {
       emphasize
     }
+  if$
+  url empty$
+    {
+    doi empty$
+      { }
+      { "\href{http://dx.doi.org/" doi * "}{" * swap$ * "}" * }
+    if$
+    }
+    { "\href{" url * "}{" * swap$ * "}" * }
   if$
 }
 FUNCTION {output.bibitem}

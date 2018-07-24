@@ -4,40 +4,52 @@
 \providecommand{\eprint}[2][]{\url{#2}}
 
 \bibitem{1956Natur.178..446R}
-F.~{Reines} and C.~L. {Cowan}, \emph{{The Neutrino}}, Nature, \textbf{178},
-  446--449 (1956).
+F.~{Reines} and C.~L. {Cowan},
+  \href{http://dx.doi.org/10.1038/178446a0}{\emph{The Neutrino}}, Nature,
+  \textbf{178}, 446--449 (1956).
 
 \bibitem{Fukuda1998}
-Y.~Fukuda et~al., \emph{Evidence for Oscillation of Atmospheric Neutrinos},
-  Physical Review Letters, \textbf{81}~(8), 1562--1567 (1998).
+Y.~Fukuda et~al.,
+  \href{http://dx.doi.org/10.1103/physrevlett.81.1562}{\emph{Evidence for
+  Oscillation of Atmospheric Neutrinos}}, Phys. Rev. Lett., \textbf{81}~(8),
+  1562--1567 (1998).
 
 \bibitem{Suzuki2014}
-A.~Suzuki, \emph{Antineutrino science in {KamLAND}}, The European Physical
-  Journal C, \textbf{74}~(10) (2014).
+A.~Suzuki,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-014-3094-x}{\emph{Antineutrino
+  science in {KamLAND}}}, The European Physical Journal C, \textbf{74}~(10)
+  (2014).
 
 \bibitem{PhysRevLett.108.171803}
-F.~P. An et~al., \emph{Observation of Electron-Antineutrino Disappearance at
-  Daya Bay}, Phys. Rev. Lett., \textbf{108}, 171803 (2012).
+F.~P. An et~al.,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.108.171803}{\emph{Observation
+  of Electron-Antineutrino Disappearance at Daya Bay}}, Phys. Rev. Lett.,
+  \textbf{108}, 171803 (2012).
 
 \bibitem{PhysRevLett.108.131801}
-Y.~Abe et~al. (Double Chooz Collaboration), \emph{Indication of Reactor
-  ${\overline{\ensuremath{\nu}}}_{e}$ Disappearance in the Double Chooz
-  Experiment}, Phys. Rev. Lett., \textbf{108}, 131801 (2012).
+Y.~Abe et~al. (Double Chooz Collaboration),
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.108.131801}{\emph{Indication
+  of Reactor ${\overline{\ensuremath{\nu}}}_{e}$ Disappearance in the Double
+  Chooz Experiment}}, Phys. Rev. Lett., \textbf{108}, 131801 (2012).
 
 \bibitem{PhysRevD.88.032002}
-K.~Abe et~al. (T2K Collaboration), \emph{Evidence of electron neutrino
-  appearance in a muon neutrino beam}, Phys. Rev. D, \textbf{88}, 032002
-  (2013).
+K.~Abe et~al. (T2K Collaboration),
+  \href{https://link.aps.org/doi/10.1103/PhysRevD.88.032002}{\emph{Evidence of
+  electron neutrino appearance in a muon neutrino beam}}, Phys. Rev. D,
+  \textbf{88}, 032002 (2013).
 
 \bibitem{Abe:2017bay}
-K.~Abe et~al. (T2K), \emph{{Updated T2K measurements of muon neutrino and
-  antineutrino disappearance using 1.5$\times$10$^{21}$ protons on target}},
-  Phys. Rev., \textbf{D96}~(1), 011102 (2017), \url{arXiv}:\url{1704.06409}.
+K.~Abe et~al. (T2K),
+  \href{http://dx.doi.org/10.1103/PhysRevD.96.011102}{\emph{{Updated T2K
+  measurements of muon neutrino and antineutrino disappearance using
+  1.5$\times$10$^{21}$ protons on target}}}, Phys. Rev., \textbf{D96}~(1),
+  011102 (2017), \url{arXiv}:\url{1704.06409}.
 
 \bibitem{Maki1962}
-Z.~Maki, M.~Nakagawa, and S.~Sakata, \emph{Remarks on the Unified Model of
-  Elementary Particles}, Progress of Theoretical Physics, \textbf{28}~(5),
-  870--880 (1962).
+Z.~Maki, M.~Nakagawa, and S.~Sakata,
+  \href{http://dx.doi.org/10.1143/ptp.28.870}{\emph{Remarks on the Unified
+  Model of Elementary Particles}}, Progress of Theoretical Physics,
+  \textbf{28}~(5), 870--880 (1962).
 
 \bibitem{Pontecorvo1957}
 B.~Pontecorvo, \emph{Inverse beta processes and nonconservation of lepton
@@ -48,68 +60,80 @@ B.~Kayser, \emph{{Neutrino physics}}, eConf, \textbf{C040802}, L004 (2004),
   \url{arXiv}:\url{hep-ph/0506165}.
 
 \bibitem{Kayser:2011jn}
-B.~Kayser, \emph{{B-Meson and Neutrino Oscillation: A Unified Treatment}}, AIP
-  Conf. Proc., \textbf{1441}, 464 (2011), \url{arXiv}:\url{1110.3047}.
+B.~Kayser, \href{http://dx.doi.org/10.1063/1.3700586}{\emph{{B-Meson and
+  Neutrino Oscillation: A Unified Treatment}}}, AIP Conf. Proc., \textbf{1441},
+  464 (2011), \url{arXiv}:\url{1110.3047}.
 
 \bibitem{ABE2011106}
-K.~Abe et~al., \emph{The T2K experiment}, Nucl. Instrum. Methods Phys. Res.
-  Sect. A, \textbf{659}~(1), 106--135 (2011).
-
-\bibitem{Aoki2013}
-S.~Aoki et~al., \emph{The T2K Side Muon Range Detector ({SMRD})}, Nucl.
-  Instrum. Methods Phys. Res. Sect. A, \textbf{698}, 135--146 (2013).
+K.~Abe et~al.,
+  \href{http://www.sciencedirect.com/science/article/pii/S0168900211011910}{\emph{The
+  T2K experiment}}, Nucl. Instrum. Methods Phys. Res. Sect. A,
+  \textbf{659}~(1), 106--135 (2011).
 
 \bibitem{Assylbekov:2011sh}
-S.~Assylbekov et~al., \emph{{The T2K ND280 Off-Axis Pi-Zero Detector}}, Nucl.
-  Instrum. Meth., \textbf{A686}, 48--63 (2012), \url{arXiv}:\url{1111.5030}.
+S.~Assylbekov et~al.,
+  \href{http://dx.doi.org/10.1016/j.nima.2012.05.028}{\emph{{The T2K ND280
+  Off-Axis Pi-Zero Detector}}}, Nucl. Instrum. Meth., \textbf{A686}, 48--63
+  (2012), \url{arXiv}:\url{1111.5030}.
 
 \bibitem{Amaudruz:2012agx}
-P.~A. Amaudruz et~al. (T2K ND280 FGD), \emph{{The T2K Fine-Grained Detectors}},
-  Nucl. Instrum. Meth., \textbf{A696}, 1--31 (2012),
+P.~A. Amaudruz et~al. (T2K ND280 FGD),
+  \href{http://dx.doi.org/10.1016/j.nima.2012.08.020}{\emph{{The T2K
+  Fine-Grained Detectors}}}, Nucl. Instrum. Meth., \textbf{A696}, 1--31 (2012),
   \url{arXiv}:\url{1204.3666}.
 
 \bibitem{Abgrall:2010hi}
-N.~Abgrall et~al. (T2K ND280 TPC), \emph{{Time Projection Chambers for the T2K
-  Near Detectors}}, Nucl. Instrum. Meth., \textbf{A637}, 25--46 (2011),
-  \url{arXiv}:\url{1012.0865}.
+N.~Abgrall et~al. (T2K ND280 TPC),
+  \href{http://dx.doi.org/10.1016/j.nima.2011.02.036}{\emph{{Time Projection
+  Chambers for the T2K Near Detectors}}}, Nucl. Instrum. Meth., \textbf{A637},
+  25--46 (2011), \url{arXiv}:\url{1012.0865}.
 
 \bibitem{Brun1997}
-R.~Brun and F.~Rademakers, \emph{{ROOT} {\textemdash} An object oriented data
-  analysis framework}, Nucl. Instrum. Methods Phys. Res. Sect. A,
-  \textbf{389}~(1-2), 81--86 (1997).
+R.~Brun and F.~Rademakers,
+  \href{http://dx.doi.org/10.1016/s0168-9002(97)00048-x}{\emph{{ROOT}
+  {\textemdash} An object oriented data analysis framework}}, Nucl. Instrum.
+  Methods Phys. Res. Sect. A, \textbf{389}~(1-2), 81--86 (1997).
 
 \bibitem{Agostinelli2003}
-S.~Agostinelli et~al., \emph{Geant4{\textemdash}a simulation toolkit}, Nucl.
-  Instrum. Methods Phys. Res. Sect. A, \textbf{506}~(3), 250--303 (2003).
+S.~Agostinelli et~al.,
+  \href{http://dx.doi.org/10.1016/s0168-9002(03)01368-8}{\emph{Geant4{\textemdash}a
+  simulation toolkit}}, Nucl. Instrum. Methods Phys. Res. Sect. A,
+  \textbf{506}~(3), 250--303 (2003).
 
 \bibitem{Arnault:2000vu}
-C.~Arnault, \emph{{CMT: A software configuration management tool}}, In
-  \emph{{Proceedings, 11th International Conference on Computing in High-Energy
-  and Nuclear Physics (CHEP 2000): Padua, Italy, February 7-11, 2000}}, pages
-  692--695 (2000).
+C.~Arnault, \href{http://chep2000.pd.infn.it/abst/abs_f033.htm}{\emph{{CMT: A
+  software configuration management tool}}}, In \emph{{Proceedings, 11th
+  International Conference on Computing in High-Energy and Nuclear Physics
+  (CHEP 2000): Padua, Italy, February 7-11, 2000}}, pages 692--695 (2000).
 
 \bibitem{Berliner2001}
 B.~Berliner and J.~Polk, \emph{Concurrent Version Systems (CVS)} (2001).
 
 \bibitem{Ritt2001}
-S.~Ritt, P.~Amaudruz, and K.~Olchanski, \emph{MIDAS (Maximum Integration Data
-  Acquisition System)} (2001), \url{http://midas.psi.ch}.
+S.~Ritt, P.~Amaudruz, and K.~Olchanski, \href{http://midas.psi.ch}{\emph{MIDAS
+  (Maximum Integration Data Acquisition System)}} (2001),
+  \url{http://midas.psi.ch}.
 
 \bibitem{Hayato:2009zz}
 Y.~Hayato, \emph{{A neutrino interaction simulation program library NEUT}},
   Acta Phys. Polon., \textbf{B40}, 2477--2489 (2009).
 
 \bibitem{Andreopoulos2010}
-C.~Andreopoulos et~al., \emph{The {GENIE} neutrino Monte Carlo generator},
-  Nucl. Instrum. Methods Phys. Res. Sect. A, \textbf{614}~(1), 87--104 (2010).
+C.~Andreopoulos et~al.,
+  \href{http://dx.doi.org/10.1016/j.nima.2009.12.009}{\emph{The {GENIE}
+  neutrino Monte Carlo generator}}, Nucl. Instrum. Methods Phys. Res. Sect. A,
+  \textbf{614}~(1), 87--104 (2010).
 
 \bibitem{Blondel:2299599}
-P.~Hamacher-Baumann et~al., \emph{{The T2K-ND280 upgrade proposal}}, Technical
-  Report CERN-SPSC-2018-001. SPSC-P-357, CERN, Geneva (2018).
+P.~Hamacher-Baumann et~al.,
+  \href{https://cds.cern.ch/record/2299599}{\emph{{The T2K-ND280 upgrade
+  proposal}}}, Technical Report CERN-SPSC-2018-001. SPSC-P-357, CERN, Geneva
+  (2018).
 
 \bibitem{Durieu2001}
-L.~Durieu, M.~Martini, and A.-S. Muller, \emph{Optics studies for the T9 beam
-  line in the {CERN} {PS} East Area secondary beam facility}, In
+L.~Durieu, M.~Martini, and A.-S. Muller,
+  \href{http://dx.doi.org/10.1109/pac.2001.986743}{\emph{Optics studies for the
+  T9 beam line in the {CERN} {PS} East Area secondary beam facility}}, In
   \emph{{PACS}2001. Proceedings of the 2001 Particle Accelerator Conference
   (Cat. No.01CH37268)}, {IEEE} (2001).
 
@@ -122,9 +146,10 @@ F.~Cadoux, L.~Nicola, and E.~Noah, \emph{Platform Super-FGD Beam Tests} (2018),
   \url{https://indico.cern.ch/event/721110/contributions/2964314/attachments/1629976/2597771/Platform_beam_tests_SuperFGD_6April2018.pdf}.
 
 \bibitem{Antonova2017}
-M.~Antonova et~al., \emph{Baby {MIND}: a magnetized segmented neutrino detector
-  for the {WAGASCI} experiment}, Journal of Instrumentation, \textbf{12}~(07),
-  C07028--C07028 (2017).
+M.~Antonova et~al.,
+  \href{http://dx.doi.org/10.1088/1748-0221/12/07/c07028}{\emph{Baby {MIND}: a
+  magnetized segmented neutrino detector for the {WAGASCI} experiment}},
+  Journal of Instrumentation, \textbf{12}~(07), C07028--C07028 (2017).
 
 \bibitem{CAEN}
 CAEN, \emph{WaveCatcher Digitisers},
@@ -135,21 +160,24 @@ A.~Korzenev, \emph{PID System for the Super-FGD Test-Beam in 2018} (2018),
   \url{https://indico.cern.ch/event/716235/contributions/2949678/attachments/1623617/2584802/testbeam_sFGD.pdf}.
 
 \bibitem{Wu2017}
-C.~Wu, \emph{Search for Muon to Electron Conversion at J-{PARC}}, Nuclear and
-  Particle Physics Proceedings, \textbf{287-288}, 173--176 (2017).
+C.~Wu, \href{http://dx.doi.org/10.1016/j.nuclphysbps.2017.03.070}{\emph{Search
+  for Muon to Electron Conversion at J-{PARC}}}, Nuclear and Particle Physics
+  Proceedings, \textbf{287-288}, 173--176 (2017).
 
 \bibitem{CMake}
 \emph{CMake: Cross-platform Make}, \url{http://www.cmake.org}.
 
 \bibitem{Clemencic2012}
-M.~Clemencic and P.~Mato, \emph{A CMake-based build and configuration
-  framework}, Journal of Physics: Conference Series, \textbf{396}~(5), 052021
-  (2012).
+M.~Clemencic and P.~Mato,
+  \href{http://stacks.iop.org/1742-6596/396/i=5/a=052021}{\emph{A CMake-based
+  build and configuration framework}}, Journal of Physics: Conference Series,
+  \textbf{396}~(5), 052021 (2012).
 
 \bibitem{Christodoulou2017}
-G.~Christodoulou et~al., \emph{Selection of electron (anti-)neutrinos at the
-  T2K near detector {ND}280}, Journal of Physics: Conference Series,
-  \textbf{888}, 012218 (2017).
+G.~Christodoulou et~al.,
+  \href{http://dx.doi.org/10.1088/1742-6596/888/1/012218}{\emph{Selection of
+  electron (anti-)neutrinos at the T2K near detector {ND}280}}, Journal of
+  Physics: Conference Series, \textbf{888}, 012218 (2017).
 
 \bibitem{Giganti2013}
 C.~Giganti and N.~McCauley, \emph{Measurement of the electron neutrino beam

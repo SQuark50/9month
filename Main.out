@@ -1,4 +1,4 @@
-\BOOKMARK [0][-]{section*.2}{Upgrading the Near Detector of T2K, the Beam Test of a New Scintillator Detector Design, and Electron Neutrino Detection in a Neutrino Beam 0mm}{}% 2
+\BOOKMARK [0][-]{section*.2}{Upgrading the Near Detector of T2K and Electron \(Anti-\)Neutrino Detection in a Neutrino Beam 0mm}{}% 2
 \BOOKMARK [1][-]{section*.1}{Abstract}{section*.2}% 1
 \BOOKMARK [1][-]{section*.3}{Contents}{section*.2}% 3
 \BOOKMARK [1][-]{section*.4}{Introduction}{section*.2}% 4
@@ -23,7 +23,7 @@
 \BOOKMARK [2][-]{section*.33}{Package Names}{section*.31}% 23
 \BOOKMARK [2][-]{section*.34}{CMake and CMT}{section*.31}% 24
 \BOOKMARK [2][-]{section*.35}{Mix-in Classes}{section*.31}% 25
-\BOOKMARK [1][-]{section*.36}{\(Anti-\)Electron Neutrino Detection at ND280}{section*.2}% 26
+\BOOKMARK [1][-]{section*.36}{Electron \(Anti-\)Neutrino Detection at ND280}{section*.2}% 26
 \BOOKMARK [2][-]{section*.37}{Selection Cuts}{section*.36}% 27
-\BOOKMARK [1][-]{section*.38}{Future Work and Conclusions}{section*.2}% 28
-\BOOKMARK [1][-]{section*.39}{References}{section*.2}% 29
+\BOOKMARK [1][-]{section*.39}{Future Work and Conclusions}{section*.2}% 28
+\BOOKMARK [1][-]{section*.40}{References}{section*.2}% 29
